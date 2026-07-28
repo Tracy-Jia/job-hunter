@@ -1,12 +1,14 @@
-# Job Hunter — 不要比谁投得多，比谁不蠢
+# Job Hunter — 双向节约时间，而不是比谁投得多
 
 > *"It is remarkable how much long-term advantage we've gotten by trying to be consistently not stupid, instead of trying to be very intelligent."*
 
-大多数求职工具把"一天投500份"当卖点。这是用发送量替代回复率——跟苏联钢厂按吨位考核一样，你得到了很多吨钢，全是废铁。**HR看到"期待进一步沟通"的第三秒就知道你是海投。**
+大多数求职工具把"一天投500份"当卖点。用发送量替代回复率——跟苏联钢厂按吨位考核一样，你得到了很多吨钢，全是废铁。**HR看到"期待进一步沟通"的第三秒就知道你是海投。** 浪费了HR的时间，也浪费了你自己的。
 
-这个工具每天只处理20-30个岗位。每个都读过JD、做过匹配、招呼语是专门写的。不是因为道德高尚——是因为这么做有效。
+这个工具的逻辑反着来：按关键词广泛扫描 → 规则筛掉明显不合适的 → 对剩下的逐条深度读JD → AI做匹配 → 只给真正适配的岗位生成定制招呼语。最后投递的数量取决于当天搜出来多少合适的——不是设了个上限，是好岗位就那么多。
 
-扫描 → 筛选 → 读JD → AI匹配 → 生成招呼语 → 发送 → 复盘。基于 [Claude Code](https://claude.com/claude-code)，CDP（Chrome DevTools Protocol）操控本地浏览器。纯本地运行。
+扫描 → 筛选 → 读JD → AI匹配 → 招呼语 → 发送 → 复盘。基于 [Claude Code](https://claude.com/claude-code)，CDP（Chrome DevTools Protocol）操控本地浏览器。纯本地运行。
+
+> **适用场景**：面向国内招聘市场。核心流水线在一线招聘平台上经过数十轮实战验证，体感最好的平台因合规考虑不在此处具名（代码文件名已暗示）。如果你不在国内求职，这个工具对你没用——别浪费时间。
 
 ## ⚠️ 免责声明
 
