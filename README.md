@@ -25,7 +25,7 @@
 > 根据求职方向拆成多个搜索词（不同 title 变体、相邻职能），每个词扫若干条，去重后得到一个不重复的岗位池。
 
 **🎯 筛选** — 你的排除规则，系统自动执行
-> 想避开什么？保险/教培/外包/单休/远距离/英语口语岗/已投过的公司……写进配置一次性筛掉。规则自己做主，机器只负责不遗漏。
+> 想避开什么？保险/教培/外包/单休/远距离/语言不匹配/硬性证书不满足……写进配置一次性筛掉。规则自己做主，机器只负责不遗漏。
 
 **📖 读 JD** — 逐个打开详情页，绕过字体加密提取明文薪资
 > 部分平台把薪资数字用自定义字体加密，普通爬虫只能抓到乱码。直接从页面 script 标签里拿原始数据。
@@ -88,11 +88,11 @@ python boss_scan.py fast --keywords "人事主管" --city 上海 --count-per-kw 
 # ① 快速扫描 — 关键词批量扫卡片。这一步不读JD，只收元数据
 python boss_scan.py fast --keywords "人事经理,HRBP,薪酬主管" --city 上海 --count-per-kw 10
 
-# ② 规则预筛 — 7层过滤器。排除词、薪资、双休、通勤、黑名单、历史去重、英语门槛
+# ② 规则预筛 — 基于你的 config.json 自动执行。排除词、薪资底线、双休、通勤、黑名单、去重、语言能力、资格证书
 python boss_prefilter.py --file fast-上海-MMDD-HHMM.json
 
 # ③ 深度读JD — 逐个打开详情页，提取完整JD文本 + 绕过加密拿明文薪资
-python boss_scan.py deep --file prefiltered-xxx.json --top 20
+python boss_scan.py deep --file prefiltered-fast-MMDD-HHMM.json --top 20
 
 # ④ AI生成招呼语 — LLM读JD，按 greeting_guide.md 框架逐条写
 #    → 输出 send_list.json（含招呼语 + 匹配点评分）
