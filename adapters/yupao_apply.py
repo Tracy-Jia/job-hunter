@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 """鱼泡直聘自动投递脚本（DrissionPage版）"""
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 import json
 import time
-from pathlib import Path
 from urllib.parse import quote
 
 from shared import (

@@ -4,9 +4,12 @@
 前置要求：51job 在线简历必须填写完整，否则点投递会被踢到简历向导页。
 """
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 import json
 import time
-from pathlib import Path
 from urllib.parse import quote
 
 from shared import (

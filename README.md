@@ -118,23 +118,35 @@ python boss_daily.py
 ## 文件结构
 
 ```
-├── boss_scan.py          # 扫描引擎：fast（扫卡片）+ deep（读完整JD）
-├── boss_prefilter.py     # 规则预筛：排除词/薪资/双休/通勤/历史去重 + 评分排序
-├── boss_apply.py         # 自动发送：属性提取路线，React MouseEvent兼容
-├── boss_send.py          # CDP发送备选方案（实验性）
-├── boss_daily.py         # 每日摘要：自动检测聊天列表回复状态 + 跟进建议
-├── shared.py             # 公共模块：浏览器连接、配置加载、评分、去重
-├── test_shared.py        # shared.py 单元测试
+├── job_hunter/              # 核心 Python 包
+│   ├── scanner.py           # 扫描引擎：fast（扫卡片）+ deep（读完整JD）
+│   ├── prefilter.py         # 规则预筛：用户自定义排除规则 + 评分排序
+│   ├── applier.py           # 自动发送：属性提取路线，React MouseEvent 兼容
+│   ├── sender.py            # CDP 搜索页直发方案（备选）
+│   ├── daily.py             # 每日摘要：自动检测聊天列表回复状态 + 跟进建议
+│   ├── browser.py           # Chromium 浏览器 CDP 连接
+│   ├── config.py            # 用户配置加载
+│   ├── scorer.py            # JD 关键词评分 & 去重
+│   └── utils.py             # 文本清洗 / 薪资解析 / 日志读写
 │
-├── greeting_guide.md     # 招呼语生成规范（5段式框架 + 角色差异化 + 质量自检）
-├── SKILL.md              # Claude Code skill 定义（完整六步工作流）
-├── config.example.json   # 配置模板（复制为 config.json 使用）
-├── resume.example.md     # 简历模板
+├── adapters/                # 其他平台适配（实验性，仅供参考）
+├── tests/                   # 单元测试
 │
-├── *_apply.py             # 其他平台适配脚本（实验性，仅供参考）
+├── boss_scan.py             # CLI 入口 → job_hunter.scanner
+├── boss_apply.py            # CLI 入口 → job_hunter.applier
+├── boss_prefilter.py        # CLI 入口 → job_hunter.prefilter
+├── boss_send.py             # CLI 入口 → job_hunter.sender
+├── boss_daily.py            # CLI 入口 → job_hunter.daily
+├── shared.py                # 向后兼容层（旧 import 路径仍可用）
 │
-├── requirements.txt      # Python 依赖
-├── LICENSE               # MIT
+├── greeting_guide.md        # 招呼语生成规范（5段式框架 + 角色差异化 + 质量自检）
+├── SKILL.md                 # Claude Code skill 定义
+├── config.example.json      # 配置模板（复制为 config.json 使用）
+├── resume.example.md        # 简历模板
+├── CHANGELOG.md
+│
+├── requirements.txt
+├── LICENSE
 └── README.md
 ```
 

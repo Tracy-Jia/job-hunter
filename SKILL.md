@@ -166,12 +166,22 @@ python boss_apply.py --file send_list.json --interval 10
 ├── SKILL.md                   # 本文件
 ├── greeting_guide.md          # 招呼语生成规范
 ├── README.md
-├── boss_scan.py               # 扫描（fast + deep）
-├── boss_prefilter.py          # 规则预筛
-├── boss_apply.py              # 自动发送（v2：属性提取路线）
-├── config.json                # 用户配置
+├── CHANGELOG.md
+├── job_hunter/                # 核心 Python 包（实现代码）
+│   ├── scanner.py
+│   ├── prefilter.py
+│   ├── applier.py
+│   └── ...
+├── boss_scan.py               # CLI 入口（thin wrapper）
+├── boss_prefilter.py          # CLI 入口
+├── boss_apply.py              # CLI 入口
+├── boss_daily.py              # CLI 入口
+├── shared.py                  # 向后兼容层
+├── adapters/                  # 其他平台适配（实验性）
+├── tests/                     # 单元测试
+├── config.json                # 用户配置（gitignore）
 ├── config.example.json        # 配置模板
-├── resume.md                  # 用户简历
+├── resume.md                  # 用户简历（gitignore）
 ├── fast-*.json                # fast scan 输出
 ├── prefiltered-*.json         # prefilter 输出
 ├── deep-*.json                # deep scan 输出（含JD）

@@ -15,10 +15,13 @@
 风控检测：URL 出现 safe.liepin.com / intercept / verifysms 立即终止
 """
 
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 import json as _json
 import random
 import time
-from pathlib import Path
 
 from shared import (
     connect_chrome,
