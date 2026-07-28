@@ -1,0 +1,49 @@
+# ===== 个人数据（不公开）=====
+config.json
+resume.md
+resume.pdf
+boss_online_resume_final.md
+
+# ===== 运行时输出 =====
+apply-log-*.json
+apply-log-resend-*.json
+send_list*.json
+test_*.json
+deep-*.json
+fast-*.json
+prefiltered-*.json
+scan-*.json
+candidate_pool.json
+top_strong_for_match.json
+batch*.json
+boss-上海-log.json
+
+# ===== 聊天数据（含个人对话）=====
+chat_*.json
+interest_deliver_check.json
+
+# ===== 招呼语生成脚本（含个性化逻辑）=====
+build_send_list.py
+
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# ===== IDE / Editor =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== 环境变量 =====
+.env
+.env.local

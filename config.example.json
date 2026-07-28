@@ -1,0 +1,20 @@
+{
+  "_comment": "复制为 config.json 后填入你的信息。config.json 已在 .gitignore 中排除。",
+  "resume_path": "./resume.md",
+  "greeting": "您好，我对贵司岗位非常感兴趣，期待进一步沟通！",
+  "skills": ["Python", "React", "项目管理", "数据分析"],
+  "target_roles": ["产品经理", "前端工程师"],
+  "exclude_keywords": ["总监", "架构师", "首席", "VP", "P8", "P7"],
+  "boost_keywords": ["llm", "大模型", "agent", "rag", "gpt", "ai产品", "人工智能"],
+  "company_blacklist": ["外包", "劳务派遣"],
+  "min_score": 60,
+  "default_count": 20,
+  "browser": {
+    "port": 9222,
+    "paths": [
+      "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
+    ],
+    "_comment": "paths 按优先级排列，找到第一个即用。Mac/Linux 用户可改为 Chrome/Chromium 路径。"
+  }
+}
