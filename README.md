@@ -75,7 +75,7 @@ cp resume.example.md resume.md
 
 ```bash
 # 30 秒看到第一批结果
-python boss_scan.py fast --keywords "人事主管" --city 上海 --count-per-kw 5
+python boss.py scan fast --keywords "人事主管" --city 上海 --count-per-kw 5
 ```
 
 看到 JSON 输出说明一切就绪。接下来可以按下面的工作流正式使用。
@@ -86,22 +86,22 @@ python boss_scan.py fast --keywords "人事主管" --city 上海 --count-per-kw 
 
 ```bash
 # ① 快速扫描 — 关键词批量扫卡片。这一步不读JD，只收元数据
-python boss_scan.py fast --keywords "人事经理,HRBP,薪酬主管" --city 上海 --count-per-kw 10
+python boss.py scan fast --keywords "人事经理,HRBP,薪酬主管" --city 上海 --count-per-kw 10
 
 # ② 规则预筛 — 基于你的 config.json 自动执行。排除词、薪资底线、双休、通勤、黑名单、去重、语言能力、资格证书
-python boss_prefilter.py --file fast-上海-MMDD-HHMM.json
+python boss.py prefilter --file fast-上海-MMDD-HHMM.json
 
 # ③ 深度读JD — 逐个打开详情页，提取完整JD文本 + 绕过加密拿明文薪资
-python boss_scan.py deep --file prefiltered-fast-MMDD-HHMM.json --top 20
+python boss.py deep --file prefiltered-fast-MMDD-HHMM.json --top 20
 
 # ④ AI生成招呼语 — LLM读JD，按 greeting_guide.md 框架逐条写
 #    → 输出 send_list.json（含招呼语 + 匹配点评分）
 
 # ⑤ 发送 — 逐条确认，模拟真实点击
-python boss_apply.py -f send_list.json --confirm
+python boss.py apply -f send_list.json --confirm
 
 # ⑥ 每日复盘 — 自动扫描聊天列表，标注回复状态 + 跟进建议
-python boss_daily.py
+python boss.py daily
 ```
 
 ## 招呼语：整套流水线的护城河
@@ -169,11 +169,7 @@ python boss_daily.py
 │   ├── scans/               # fast / deep 扫描结果
 │   └── apply-logs/          # 投递日志
 │
-├── boss_scan.py             # CLI 入口 → job_hunter.scanner
-├── boss_apply.py            # CLI 入口 → job_hunter.applier
-├── boss_prefilter.py        # CLI 入口 → job_hunter.prefilter
-├── boss_send.py             # CLI 入口 → job_hunter.sender
-├── boss_daily.py            # CLI 入口 → job_hunter.daily
+├── boss.py                   # 单入口 CLI（scan / prefilter / deep / apply / daily）
 ├── shared.py                # 向后兼容层（旧 import 路径仍可用）
 │
 ├── greeting_guide.md        # 招呼语生成规范
