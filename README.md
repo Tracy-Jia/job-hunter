@@ -101,6 +101,12 @@ python boss_daily.py
 - **React事件兼容** — MouseEvent三件套触发React handler
 - **字体加密绕过** — `_jobInfo` script标签提取明文薪资
 
+## 已知限制
+
+**浏览器**：仅在 360 极速浏览器（Chromium 内核）上完整验证过。理论上任何基于 Chromium 的浏览器（Chrome / Edge / Brave）都支持 CDP 协议，但尚未实测。Firefox 不支持。
+
+**模型依赖**：招呼语生成环节（工作流第④步）依赖 Claude 的深度语言理解能力来提取 JD 需求、做匹配映射、按规范生成个性化文案。使用其他 LLM（Large Language Model，大语言模型）时招呼语质量可能显著下降——这不是 API 调用，而是整个流水线中最依赖模型能力的环节。核心脚本（扫描/筛选/发送/复盘）不依赖特定模型。
+
 ## 文件结构
 
 ```

@@ -4,7 +4,7 @@ description: 求职自动投递助手。读取用户简历与偏好，在招聘�
 origin: local
 ---
 
-# Job Hunter — 自动求职投递（BOSS直聘）
+# Job Hunter — 自动求职投递
 
 ## Deep-First 工作流（标准流程）
 
@@ -42,11 +42,9 @@ origin: local
 
 ### Step 3：确认浏览器已启动
 
-```
-Win+R → "D:\360浏览器\360ChromeX\Chrome\Application\360ChromeX.exe" --remote-debugging-port=9222
-```
+启动时需加 `--remote-debugging-port=9222` 参数（端口号与 config.json 中 browser.port 一致）。脚本也会自动尝试启动——若已手动启动则直接连接。
 
-已登录 BOSS → 继续。
+已登录招聘平台 → 继续。
 
 ### Step 4：fast scan（全量扫卡片）
 

@@ -1,21 +1,13 @@
 """
-boss_send.py v4 — 已验证可用
+boss_send.py v4 — 搜索页直发方案（备选）
 流程：搜岗位→点卡片→点"立即沟通"(.op-btn-chat)→聊天窗开→输入定制语→发送
+注意：此方案已被 boss_apply.py 的属性提取路线替代，保留供参考。
 """
 import json, time, sys
 from pathlib import Path
-from DrissionPage import ChromiumOptions, ChromiumPage
+from shared import connect_chrome, load_config
 
 SKILL_DIR = Path(__file__).parent
-
-def connect_chrome(port=9222):
-    opts = ChromiumOptions().set_local_port(port)
-    if sys.platform == 'win32':
-        for p in [r'D:\360浏览器\360ChromeX\Chrome\Application\360ChromeX.exe']:
-            if Path(p).exists():
-                opts.set_browser_path(p)
-                break
-    return ChromiumPage(addr_or_opts=opts)
 
 def send_via_search(page, keyword, city_code, jobs_to_send):
     """
@@ -115,7 +107,7 @@ def main():
             print(f"  → {j['greeting']}\n")
         return
 
-    page = connect_chrome()
+    page = connect_chrome(config=load_config())
     sent = send_via_search(page, keyword, city_code, jobs)
     print(f"\n✅ 发送: {sent}/{len(jobs)}")
 
