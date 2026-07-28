@@ -6,7 +6,9 @@
 
 **核心理念：HR一眼能看出你是不是海投。** 招呼语是你给HR的第一印象，也是大多数求职者最敷衍的一环。这个工具用 AI 把 JD 关键需求拎出来，从你的简历里找最匹配的证据，生成一条读起来"这个人认真看过我们岗位"的消息。
 
-基于 [Claude Code](https://claude.com/claude-code) 的 skill，通过 CDP (Chrome DevTools Protocol) 操控本地浏览器完成主流招聘平台的自动化投递。**纯本地运行，不上传任何数据到第三方。**
+基于 [Claude Code](https://claude.com/claude-code) 的 skill，通过 CDP (Chrome DevTools Protocol) 操控本地浏览器完成自动化投递。**纯本地运行，不上传任何数据到第三方。**
+
+> **平台覆盖**：核心流水线（扫描→招呼语→发送→复盘）已在主流招聘平台上经过数十轮实战验证。51job/猎聘/鱼泡直聘适配脚本保留在仓库中供社区参考和贡献，但尚未经过同等强度的验证——欢迎提交 PR 或反馈。
 
 ## ⚠️ 免责声明
 
@@ -115,9 +117,9 @@ python boss_daily.py
 ├── config.example.json   # 配置模板（复制为 config.json 使用）
 ├── resume.example.md     # 简历模板
 │
-├── 51job_apply.py        # 前程无忧适配
-├── liepin_apply.py       # 猎聘适配
-├── yupao_apply.py        # 鱼泡直聘适配
+├── 51job_apply.py        # 前程无忧适配（实验性，未经充分验证）
+├── liepin_apply.py       # 猎聘适配（实验性，未经充分验证）
+├── yupao_apply.py        # 鱼泡直聘适配（实验性，未经充分验证）
 │
 ├── requirements.txt      # Python 依赖
 ├── LICENSE               # MIT
