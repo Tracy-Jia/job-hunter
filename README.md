@@ -62,6 +62,15 @@ cp resume.example.md resume.md
 # 填入你的简历内容
 ```
 
+### 4. 试试扫描（不投递，放心跑）
+
+```bash
+# 30 秒看到第一批结果
+python boss_scan.py fast --keywords "人事主管" --city 上海 --count-per-kw 5
+```
+
+看到 JSON 输出说明一切就绪。接下来可以按下面的工作流正式使用。
+
 ## 工作流
 
 六步，每一步有明确的输入和输出。没有"AI智能一键优化"那种废话——你知道每一步在做什么、为什么这么做。
@@ -102,9 +111,19 @@ python boss_daily.py
 
 **角色语气切换**：同一套框架，不同岗位用不同语气——技术岗侧重成果和硬技能，业务岗侧重业务理解和推动力，管理岗侧重规模和体系搭建。具体规则见 `greeting_guide.md` 的角色差异化表格，使用者根据自己的求职方向自行配置。
 
+<details>
+<summary>📝 示例：某电商公司薪酬主管岗</summary>
+
+**输入**：JD 要求 200 人以上薪酬核算经验，熟悉个税社保公积金全流程，有薪酬体系搭建经验优先。
+
+**输出**：
+> 3年200+人薪酬核算经验，熟练处理个税、社保、公积金全流程。主导过从0搭建薪酬体系的项目，把原来3天的核算周期压缩到半天。上一家公司年度调薪方案由我独立完成，覆盖12个部门。看过贵司的电商业务模式，薪酬复杂度应该不低——这正是我擅长的。附件是我的简历，方便的话可以约个时间聊聊。
+
+</details>
+
 ## 技术栈
 
-- **DrissionPage 4.x** — CDP连接本地Chrome
+- **DrissionPage 4.x** — CDP（Chrome DevTools Protocol）连接本地Chrome，相当于脚本像真人一样操作你的浏览器，不需要破解任何东西
 - **招聘平台API** — 好友建立 + 聊天页发送
 - **React事件兼容** — MouseEvent三件套触发React handler
 - **字体加密绕过** — `_jobInfo` script标签提取明文薪资
@@ -117,12 +136,21 @@ python boss_daily.py
 
 ## 文件结构
 
+`job_hunter/` → 核心 Python 包（扫描/筛选/发送/招呼语/复盘/浏览器 共 10 个模块）  
+`adapters/` → 其他招聘平台适配（实验性）  
+`tests/` → 单元测试  
+`output/` → 运行时数据（扫描结果、投递日志）
+
+<details>
+<summary>📂 展开完整文件树</summary>
+
 ```
 ├── job_hunter/              # 核心 Python 包
 │   ├── scanner.py           # 扫描引擎：fast（扫卡片）+ deep（读完整JD）
 │   ├── prefilter.py         # 规则预筛：用户自定义排除规则 + 评分排序
 │   ├── applier.py           # 自动发送：属性提取路线，React MouseEvent 兼容
 │   ├── sender.py            # CDP 搜索页直发方案（备选）
+│   ├── greeting.py          # 招呼语生成：5段式框架 + 角色差异化
 │   ├── daily.py             # 每日摘要：自动检测聊天列表回复状态 + 跟进建议
 │   ├── browser.py           # Chromium 浏览器 CDP 连接
 │   ├── config.py            # 用户配置加载
@@ -131,6 +159,9 @@ python boss_daily.py
 │
 ├── adapters/                # 其他平台适配（实验性，仅供参考）
 ├── tests/                   # 单元测试
+├── output/                  # 运行时输出（不入 git）
+│   ├── scans/               # fast / deep 扫描结果
+│   └── apply-logs/          # 投递日志
 │
 ├── boss_scan.py             # CLI 入口 → job_hunter.scanner
 ├── boss_apply.py            # CLI 入口 → job_hunter.applier
@@ -139,7 +170,7 @@ python boss_daily.py
 ├── boss_daily.py            # CLI 入口 → job_hunter.daily
 ├── shared.py                # 向后兼容层（旧 import 路径仍可用）
 │
-├── greeting_guide.md        # 招呼语生成规范（5段式框架 + 角色差异化 + 质量自检）
+├── greeting_guide.md        # 招呼语生成规范
 ├── SKILL.md                 # Claude Code skill 定义
 ├── config.example.json      # 配置模板（复制为 config.json 使用）
 ├── resume.example.md        # 简历模板
@@ -149,6 +180,34 @@ python boss_daily.py
 ├── LICENSE
 └── README.md
 ```
+
+</details>
+
+## 常见问题
+
+<details>
+<summary>Q: 会被封号吗？</summary>
+
+任何自动化操作都有风险。本工具在设计上尽量降低风险——所有操作基于 CDP 操控真实浏览器，与手工操作结构上等价；默认发送间隔 15 秒。但我们无法保证第三方平台的反作弊策略不会升级。**建议用小号先测试，确认稳定后再用主号。**
+</details>
+
+<details>
+<summary>Q: 为什么不直接调 API？</summary>
+
+招聘平台的 API 有严格的限流和鉴权机制，且频繁变更。CDP 路线操控真实浏览器，不受 API 限流影响，且反爬检测更难区分"脚本"和"真人"。
+</details>
+
+<details>
+<summary>Q: 支持哪些招聘平台？</summary>
+
+核心流水线在一线招聘平台上经过数十轮实战验证（因合规考虑不具名）。`adapters/` 目录下有其他平台的实验性适配器，由社区贡献，稳定性因平台而异。
+</details>
+
+<details>
+<summary>Q: 和其他开源求职工具有什么不同？</summary>
+
+大多数工具追求"投得多"——一天几百份，用发送量替代回复率。我们的核心差异在招呼语：不是千篇一律的模板，而是基于目标 JD 逐条定制的 5 段式框架。最终投递数量取决于当天有多少合适的岗位——不是设了个上限，是好岗位就那么多。
+</details>
 
 ## 安全与隐私
 
@@ -163,7 +222,7 @@ python boss_daily.py
 job-hunter 是求职工具链中的**投递环节**。另有：
 
 - **简历定制助手**（开发中）—— 根据目标岗位JD反向定制简历，让简历和招呼语从同一套匹配逻辑出发
-- **职业探索助手**（规划中）—— 投之前先搞清楚方向。通过故事挖掘和交叉分析帮职业迷茫期的人找到可行路径
+- **[职业探索助手 career-compass](https://github.com/Tracy-Jia/career-compass)** — 投之前先搞清楚方向。通过故事挖掘和交叉分析帮职业迷茫期的人找到可行路径，可直接导出 job-hunter 配置文件
 
 三个工具互补但不耦合——你可以只用其中一个。
 

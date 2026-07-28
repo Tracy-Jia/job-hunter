@@ -4,7 +4,9 @@ resume.md
 resume.pdf
 boss_online_resume_final.md
 
-# ===== 运行时输出 =====
+# ===== 运行时输出（统一归入 output/）=====
+output/
+# 兼容旧版根目录散落文件
 apply-log-*.json
 apply-log-resend-*.json
 send_list*.json
@@ -21,9 +23,6 @@ boss-上海-log.json
 # ===== 聊天数据（含个人对话）=====
 chat_*.json
 interest_deliver_check.json
-
-# ===== 招呼语生成脚本（含个性化逻辑）=====
-build_send_list.py
 
 # ===== Python =====
 __pycache__/
