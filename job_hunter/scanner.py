@@ -94,8 +94,37 @@ def search_and_collect(page, keyword, city, city_code, count_per_kw):
     return cards
 
 
+def parse_commute_km(text):
+    """从通勤文本中提取公里数。'距离家庭住址3.2千米' → 3.2"""
+    import re
+    m = re.search(r"(\d+\.?\d*)\s*(千米|公里|km)", text)
+    if m:
+        return float(m.group(1))
+    return None
+
+
+def fetch_commute_info(page):
+    """从详情页底部提取通勤信息。滚到底 → 搜'距离家庭住址'。"""
+    page.run_js("window.scrollTo(0, document.body.scrollHeight)")
+    time.sleep(1)
+    result = page.run_js('''
+return (function() {
+    var all = document.querySelectorAll("*");
+    for (var i = 0; i < all.length; i++) {
+        var el = all[i];
+        if (!el.offsetParent) continue;
+        if (el.children.length > 0) continue;
+        var t = (el.textContent || "").trim();
+        if (t.indexOf("距离家庭住址") >= 0) return t;
+    }
+    return "";
+})();
+''')
+    return result.strip() if result else ""
+
+
 def fetch_jds_for(page, cards, count):
-    """逐个打开详情页读取JD + 提取明文薪资。"""
+    """逐个打开详情页读取JD + 提取明文薪资 + 提取通勤信息。"""
     for i, card in enumerate(cards[:count]):
         link = card.get("link", "")
         if not link:
@@ -110,6 +139,14 @@ def fetch_jds_for(page, cards, count):
                 card["salary_clean"] = clean_salary
                 card["salary_min_k"] = parse_salary_min(clean_salary)
 
+            # 提取通勤信息
+            commute = fetch_commute_info(page)
+            if commute:
+                card["commute"] = commute
+                km = parse_commute_km(commute)
+                if km is not None:
+                    card["commute_km"] = km
+
             raw = ""
             for sel in [".job-detail-body", ".job-detail-box", ".job-sec-text"]:
                 el = page.ele(sel)
@@ -121,6 +158,8 @@ def fetch_jds_for(page, cards, count):
             print(f"{len(card.get('jd_text',''))} chars", end="")
             if clean_salary:
                 print(f" | salary={clean_salary} min={card.get('salary_min_k','?')}K", end="")
+            if commute:
+                print(f" | commute={commute[:30]}", end="")
             print()
         except Exception as e:
             card["jd_text"] = f"[读取失败: {e}]"

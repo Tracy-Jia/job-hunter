@@ -55,9 +55,14 @@ def check_target_match(title, target_roles):
     return [role for role in target_roles if role.lower() in title_lower]
 
 
-def analyze_district(district_str):
-    near_districts = ["杨浦", "虹口", "宝山", "静安", "闸北", "新江湾"]
-    far_districts = ["浦东", "松江", "嘉定", "青浦", "奉贤", "金山", "南汇", "临港", "闵行"]
+def analyze_district(district_str, config=None):
+    if config is None:
+        config = {}
+    near_districts = config.get("near_districts", [])
+    far_districts = config.get("far_districts", [])
+
+    if not near_districts and not far_districts:
+        return "mid", ""
 
     district_str = district_str or ""
     for d in near_districts:
@@ -148,7 +153,7 @@ def main():
 
         target_matches = check_target_match(title, target_roles)
         boost_matches = [k for k in boost_keywords if k.lower() in title.lower()]
-        distance, near_dist = analyze_district(district)
+        distance, near_dist = analyze_district(district, config)
         has_weekend = any("双休" in t for t in tags)
 
         score = 0
