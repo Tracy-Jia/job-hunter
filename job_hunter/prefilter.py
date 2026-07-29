@@ -7,6 +7,8 @@ from pathlib import Path
 
 SKILL_DIR = Path(__file__).parent.parent
 
+from .utils import decode_boss_salary, parse_salary_min
+
 
 def load_config():
     cfg_path = SKILL_DIR / "config.json"
@@ -169,6 +171,20 @@ def main():
             score -= 20
         if english_ok_hit:
             score += 5
+        # 薪资维度（fast scan阶段已解码）
+        salary_min = job.get("salary_min_k")
+        if salary_min is not None:
+            if salary_min >= 20:
+                score += 15
+            elif salary_min >= 15:
+                score += 10
+            elif salary_min >= 10:
+                score += 5
+
+        # 硬过滤：薪资 < 15K 直接毙掉（除非扫不到薪资，留给deep scan解码）
+        if salary_min is not None and salary_min < 15:
+            excluded.append({**job, "reason": f"salary_too_low:{salary_min}K"})
+            continue
 
         job["_prefilter"] = {
             "score": score,

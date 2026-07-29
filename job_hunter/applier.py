@@ -27,25 +27,36 @@ def load_sent_links():
 
 
 def send_one(page, job_url, greeting):
-    """单岗位发送流程：导航详情页 → 提取redirect-url → JS点击 → 导航聊天页 → 输入 → 发送。"""
+    """单岗位发送流程：导航详情页 → 找按钮(轮询) → 建立连接 → 聊天页 → 输入 → 发送。"""
     page.get(job_url)
-    time.sleep(5)
-    page.run_js("window.scrollTo(0, 500)")
-    time.sleep(2)
+    time.sleep(3)
 
-    info = page.run_js('''
+    # 轮询等待"立即沟通"按钮出现（最多等15秒）
+    params = {}
+    for attempt in range(8):
+        page.run_js("window.scrollTo(0, 500)")
+        time.sleep(1.5)
+        info = page.run_js('''
 return (function() {
-    var btn = document.querySelector("a.btn-startchat");
-    if (!btn) return JSON.stringify({error: "no_btn"});
-    var redirect = btn.getAttribute("redirect-url") || "";
-    var dataUrl = btn.getAttribute("data-url") || "";
-    btn.click();
-    return JSON.stringify({redirect_url: redirect, data_url: dataUrl});
+    var selectors = ["a.btn-startchat", ".op-btn-chat", "a[class*=startchat]", ".btn-startchat"];
+    for (var s = 0; s < selectors.length; s++) {
+        var btn = document.querySelector(selectors[s]);
+        if (btn && btn.offsetParent) {
+            var redirect = btn.getAttribute("redirect-url") || btn.getAttribute("data-url") || "";
+            var dataUrl = btn.getAttribute("data-url") || "";
+            btn.click();
+            return JSON.stringify({ok: true, redirect_url: redirect, data_url: dataUrl});
+        }
+    }
+    return JSON.stringify({ok: false});
 })();
 ''')
-    params = json.loads(info)
+        params = json.loads(info)
+        if params.get("ok"):
+            break
 
-    if "error" in params:
+    if not params.get("ok"):
+        # 备用方案：通过securityId调add.json API
         sec_id = page.run_js('''return (function() {
     var ss = document.querySelectorAll("script");
     for (var i = 0; i < ss.length; i++) {
@@ -58,10 +69,11 @@ return (function() {
     return "";
 })();''')
         if sec_id:
-            add_url = f"/wapi/zpgeek/friend/add.json?securityId={sec_id}"
+            add_url = "/wapi/zpgeek/friend/add.json?securityId=" + sec_id
             page.run_js(
                 'var u=arguments[0]; var x=new XMLHttpRequest(); x.open("POST",u,false); '
-                'x.setRequestHeader("Content-Type","application/x-www-form-urlencoded"); x.send("");',
+                'x.setRequestHeader("Content-Type","application/x-www-form-urlencoded"); '
+                'x.setRequestHeader("X-Requested-With","XMLHttpRequest"); x.send("");',
                 add_url,
             )
             time.sleep(2)
@@ -79,11 +91,17 @@ return (function() {
         page.get(chat_url)
         time.sleep(5)
 
-    ready = page.run_js('''return (function() {
+    # 轮询等聊天输入框就绪
+    ready = False
+    for _ in range(10):
+        ready = page.run_js('''return (function() {
     var d = document.querySelector("[contenteditable=true]");
     var b = document.querySelector(".btn-send");
     return !!(d && d.offsetParent && b && b.offsetParent);
 })();''')
+        if ready:
+            break
+        time.sleep(1)
     if not ready:
         return False
 
@@ -95,13 +113,23 @@ return (function() {
     )
     time.sleep(1.5)
 
+    # 点发送（先试click，不行用文本匹配）
     sent = page.run_js('''return (function() {
     var btn = document.querySelector(".btn-send");
     if (!btn) return "no_btn";
-    btn.dispatchEvent(new MouseEvent("mousedown", {bubbles: true, cancelable: true}));
-    btn.dispatchEvent(new MouseEvent("mouseup", {bubbles: true, cancelable: true}));
-    btn.dispatchEvent(new MouseEvent("click", {bubbles: true, cancelable: true}));
+    btn.click();
     return "sent";
+})();''')
+    if sent != "sent":
+        # fallback: 找包含"发送"文字的可点击元素
+        sent = page.run_js('''return (function() {
+    var all = document.querySelectorAll("div,span,a,button");
+    for (var e of all) {
+        if (e.textContent.trim() === "发送" && e.offsetParent && !(e.className||"").includes("disable")) {
+            e.click(); return "sent";
+        }
+    }
+    return "not_found";
 })();''')
     time.sleep(2)
     return sent == "sent"

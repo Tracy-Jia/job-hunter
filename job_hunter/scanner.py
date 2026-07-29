@@ -8,7 +8,7 @@ from pathlib import Path
 
 from .browser import connect_chrome
 from .config import load_config
-from .utils import clean_text, parse_salary_min
+from .utils import clean_text, decode_boss_salary, parse_salary_min, calculate_commute
 
 
 CITY_CODES = {
@@ -70,10 +70,16 @@ def search_and_collect(page, keyword, city, city_code, count_per_kw):
                 salary_el = c.ele(".job-salary")
                 loc_el = c.ele(".company-location")
 
+                salary_raw = salary_el.text.strip() if salary_el else ""
+                salary_decoded = decode_boss_salary(salary_raw)
+                salary_min = parse_salary_min(salary_decoded)
+
                 cards.append({
                     "title": title,
                     "company": company_el.text.strip() if company_el else "",
-                    "salary_raw": salary_el.text.strip() if salary_el else "",
+                    "salary_raw": salary_raw,
+                    "salary_decoded": salary_decoded,
+                    "salary_min_k": salary_min,
                     "district": loc_el.text.strip() if loc_el else "",
                     "tags": [li.text.strip() for li in c.eles(".tag-list li") if li.text],
                     "link": title_el.attr("href") if title_el else "",
@@ -103,6 +109,62 @@ def parse_commute_km(text):
     return None
 
 
+def fetch_company_info(page):
+    """从详情页右侧提取公司基本信息：规模/行业/注册资本/融资阶段。"""
+    result = page.run_js('''
+return (function() {
+    // 先找公司信息容器
+    var containers = [];
+    var sel = document.querySelector(".company-info-box");
+    if (sel) containers.push(sel);
+    sel = document.querySelector(".biz-card");
+    if (sel) containers.push(sel);
+    // 如果找不到，遍历所有匹配公司关键字的元素
+    var all = document.querySelectorAll("[class*=company], [class*=biz]");
+    for (var i = 0; i < all.length; i++) {
+        var t = (all[i].textContent || "").trim();
+        if (t.indexOf("注册资本") >= 0 || t.indexOf("公司规模") >= 0) {
+            containers.push(all[i]);
+            break;
+        }
+    }
+    if (containers.length === 0) return "";
+    return containers[0].textContent.trim().substring(0, 500);
+})();
+''')
+    if not result:
+        return {}
+
+    info = {}
+    # 公司规模
+    m = re.search(r"公司规模[：:]\s*(.+?)(?:\n|$)", result)
+    if m: info["scale"] = m.group(1).strip()
+    # 行业
+    m = re.search(r"(?:行业|所属行业)[：:]\s*(.+?)(?:\n|$)", result)
+    if m: info["industry"] = m.group(1).strip()
+    # 注册资本
+    m = re.search(r"注册资本[：:]\s*(.+?)(?:\n|$)", result)
+    if m:
+        cap = m.group(1).strip()
+        info["registered_capital"] = cap
+        # 提取数字用于过滤
+        num_m = re.search(r"(\d+\.?\d*)\s*(万|亿元)?", cap)
+        if num_m:
+            amount = float(num_m.group(1))
+            unit = num_m.group(2) if num_m.group(2) else "万"
+            if unit == "亿元":
+                amount *= 10000  # 转成万
+            info["registered_capital_wan"] = amount
+    # 融资阶段
+    m = re.search(r"(?:融资阶段|融资)[：:]\s*(.+?)(?:\n|$)", result)
+    if m: info["financing"] = m.group(1).strip()
+    # 公司类型
+    m = re.search(r"(?:公司类型|企业类型)[：:]\s*(.+?)(?:\n|$)", result)
+    if m: info["company_type"] = m.group(1).strip()
+
+    return info
+
+
 def fetch_commute_info(page):
     """从详情页底部提取通勤信息。滚到底 → 搜'距离家庭住址'。"""
     page.run_js("window.scrollTo(0, document.body.scrollHeight)")
@@ -123,7 +185,48 @@ return (function() {
     return result.strip() if result else ""
 
 
-def fetch_jds_for(page, cards, count):
+def fetch_work_address(page):
+    """从详情页提取具体工作地址。"""
+    result = page.run_js('''
+return (function() {
+    // 尝试多种方式找地址
+    var loc = document.querySelector(\".location-address\");
+    if (loc) return loc.textContent.trim();
+    loc = document.querySelector(\"[class*=address]\");
+    if (loc) return loc.textContent.trim();
+    // 从公司信息区找
+    var all = document.querySelectorAll(\"*\");
+    for (var i = 0; i < all.length; i++) {
+        var el = all[i];
+        if (!el.offsetParent || el.children.length > 0) continue;
+        var t = (el.textContent || \"\").trim();
+        if (t.indexOf(\"地址\") >= 0 && t.length < 100) return t;
+        if (t.indexOf(\"上海市\") === 0 && t.length < 100) return t;
+    }
+    return \"\";
+})();
+''')
+    return result.strip() if result else ""
+
+
+def check_english_requirement(jd_text, config=None):
+    """检查JD中是否有硬性英语要求。返回命中的关键词列表。"""
+    if config is None:
+        config = {}
+    hard_kws = config.get("english_hard_keywords", [])
+    ok_kws = config.get("english_ok_keywords", [])
+    hits = []
+    if jd_text:
+        for kw in hard_kws:
+            if kw.lower() in jd_text.lower():
+                hits.append(("hard", kw))
+        for kw in ok_kws:
+            if kw.lower() in jd_text.lower():
+                hits.append(("ok", kw))
+    return hits
+
+
+def fetch_jds_for(page, cards, count, config=None):
     """逐个打开详情页读取JD + 提取明文薪资 + 提取通勤信息。"""
     for i, card in enumerate(cards[:count]):
         link = card.get("link", "")
@@ -160,6 +263,37 @@ def fetch_jds_for(page, cards, count):
                 print(f" | salary={clean_salary} min={card.get('salary_min_k','?')}K", end="")
             if commute:
                 print(f" | commute={commute[:30]}", end="")
+            # 公司信息抓取
+            comp = fetch_company_info(page)
+            if comp:
+                card["company_info"] = comp
+                if comp.get("registered_capital_wan", 999) < 50:
+                    print(f" | ⚠️小公司({comp.get('registered_capital','?')})", end="")
+
+            # 工作地址提取 + 通勤计算
+            addr = fetch_work_address(page)
+            if addr:
+                card["work_address"] = addr
+                home = (config or {}).get("home", {}).get("address", "")
+                gaode_key = (config or {}).get("gaode_api_key", "")
+                if home and gaode_key:
+                    commute = calculate_commute(home, addr, gaode_key)
+                    if commute:
+                        card["commute_info"] = commute
+                        parts = []
+                        if commute.get('bike_min') and commute['bike_min'] <= 30:
+                            parts.append(f"骑行{commute['bike_min']}分钟")
+                        if commute.get('transit_min'):
+                            parts.append(f"公交{commute['transit_min']}分钟")
+                        if commute.get('drive_min') and commute.get('distance_km', 0) and commute['distance_km'] > 10:
+                            parts.append(f"驾车{commute['drive_min']}分钟")
+                        print(f" | 📍通勤: {' | '.join(parts)}", end="")
+
+            # 英语要求检测
+            eng_hits = check_english_requirement(card.get("jd_text", ""), config)
+            if eng_hits:
+                card["english_required"] = [kw for t, kw in eng_hits]
+                print(f" | ⚠️ENG:{','.join(card['english_required'][:2])}", end="")
             print()
         except Exception as e:
             card["jd_text"] = f"[读取失败: {e}]"
@@ -230,7 +364,8 @@ def cmd_deep(args):
     print(f"[deep] 读取Top {top_n}个岗位的JD")
 
     page = connect_chrome(config=load_config(SKILL_DIR))
-    cards = fetch_jds_for(page, cards, top_n)
+    config = load_config(SKILL_DIR)
+    cards = fetch_jds_for(page, cards, top_n, config)
 
     out = SKILL_DIR / f"deep-{time.strftime('%m%d-%H%M')}.json"
     out.write_text(json.dumps({
