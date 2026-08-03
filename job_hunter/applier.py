@@ -27,112 +27,122 @@ def load_sent_links():
 
 
 def send_one(page, job_url, greeting):
-    """单岗位发送流程：导航详情页 → 找按钮(轮询) → 建立连接 → 聊天页 → 输入 → 发送。"""
-    page.get(job_url)
-    time.sleep(3)
+    """发送一条。外层3次重试，内层JS错误时重试当前步骤。"""
+    for retry in range(3):
+        try:
+            page.get(job_url)
+            time.sleep(4)
 
-    # 轮询等待"立即沟通"按钮出现（最多等15秒）
-    params = {}
-    for attempt in range(8):
-        page.run_js("window.scrollTo(0, 500)")
-        time.sleep(1.5)
-        info = page.run_js('''
-return (function() {
-    var selectors = ["a.btn-startchat", ".op-btn-chat", "a[class*=startchat]", ".btn-startchat"];
-    for (var s = 0; s < selectors.length; s++) {
-        var btn = document.querySelector(selectors[s]);
-        if (btn && btn.offsetParent) {
-            var redirect = btn.getAttribute("redirect-url") || btn.getAttribute("data-url") || "";
-            var dataUrl = btn.getAttribute("data-url") || "";
-            btn.click();
-            return JSON.stringify({ok: true, redirect_url: redirect, data_url: dataUrl});
-        }
+            # 轮询"立即沟通"按钮
+            params = {}
+            for attempt in range(9):
+                try:
+                    page.run_js("window.scrollTo(0, 500)")
+                    time.sleep(1.5)
+                    info = page.run_js('''return (function() {
+var sel = ["a.btn-startchat", ".op-btn-chat", "a[class*=startchat]", ".btn-startchat"];
+for (var s = 0; s < sel.length; s++) {
+    var b = document.querySelector(sel[s]);
+    if (b && b.offsetParent) {
+        var r = b.getAttribute("redirect-url") || b.getAttribute("data-url") || "";
+        var d = b.getAttribute("data-url") || "";
+        b.click();
+        return JSON.stringify({ok: true, redirect_url: r, data_url: d});
     }
-    return JSON.stringify({ok: false});
-})();
-''')
-        params = json.loads(info)
-        if params.get("ok"):
-            break
-
-    if not params.get("ok"):
-        # 备用方案：通过securityId调add.json API
-        sec_id = page.run_js('''return (function() {
-    var ss = document.querySelectorAll("script");
-    for (var i = 0; i < ss.length; i++) {
-        var c = ss[i].textContent || "";
-        if (c.indexOf("_jobInfo") >= 0) {
-            var m = c.match(/securityId\\s*:\\s*['\"]([^'\"]+)['\"]/);
-            if (m) return m[1];
-        }
-    }
-    return "";
+}
+return JSON.stringify({ok: false});
 })();''')
-        if sec_id:
-            add_url = "/wapi/zpgeek/friend/add.json?securityId=" + sec_id
+                    params = json.loads(info)
+                    if params.get("ok"):
+                        break
+                except Exception:
+                    if attempt < 8:
+                        time.sleep(2)
+                        continue
+                    raise
+
+            if not params.get("ok"):
+                sec_id = page.run_js('''return (function() {
+var ss = document.querySelectorAll("script");
+for (var i = 0; i < ss.length; i++) {
+    var c = ss[i].textContent || "";
+    if (c.indexOf("_jobInfo") >= 0) {
+        var m = c.match(/securityId\\s*:\\s*['"]([^'"]+)['"]/);
+        if (m) return m[1];
+    }
+}
+return "";
+})();''')
+                if sec_id:
+                    add_url = "/wapi/zpgeek/friend/add.json?securityId=" + sec_id
+                    page.run_js(
+                        'var u=arguments[0]; var x=new XMLHttpRequest(); x.open("POST",u,false); '
+                        'x.setRequestHeader("Content-Type","application/x-www-form-urlencoded"); '
+                        'x.setRequestHeader("X-Requested-With","XMLHttpRequest"); x.send("");',
+                        add_url,
+                    )
+                    time.sleep(2)
+                else:
+                    return False
+
+            time.sleep(3)
+
+            redirect = params.get("redirect_url", "")
+            if not redirect:
+                page.get("https://www.zhipin.com/web/geek/chat")
+                time.sleep(4)
+            else:
+                page.get("https://www.zhipin.com" + redirect)
+                time.sleep(5)
+
+            ready = False
+            for _ in range(10):
+                ready = page.run_js('''return (function() {
+var d = document.querySelector("[contenteditable=true]");
+var b = document.querySelector(".btn-send");
+return !!(d && d.offsetParent && b && b.offsetParent);
+})();''')
+                if ready:
+                    break
+                time.sleep(1)
+            if not ready:
+                return False
+
             page.run_js(
-                'var u=arguments[0]; var x=new XMLHttpRequest(); x.open("POST",u,false); '
-                'x.setRequestHeader("Content-Type","application/x-www-form-urlencoded"); '
-                'x.setRequestHeader("X-Requested-With","XMLHttpRequest"); x.send("");',
-                add_url,
+                'var t=arguments[0]; var d=document.querySelector("[contenteditable=true]"); '
+                'if(d){d.focus(); d.textContent=t; '
+                'd.dispatchEvent(new InputEvent("input",{bubbles:true}));}',
+                greeting,
             )
-            time.sleep(2)
-        else:
-            return False
+            time.sleep(1.5)
 
-    time.sleep(3)
-
-    redirect = params.get("redirect_url", "")
-    if not redirect:
-        page.get("https://www.zhipin.com/web/geek/chat")
-        time.sleep(4)
-    else:
-        chat_url = "https://www.zhipin.com" + redirect
-        page.get(chat_url)
-        time.sleep(5)
-
-    # 轮询等聊天输入框就绪
-    ready = False
-    for _ in range(10):
-        ready = page.run_js('''return (function() {
-    var d = document.querySelector("[contenteditable=true]");
-    var b = document.querySelector(".btn-send");
-    return !!(d && d.offsetParent && b && b.offsetParent);
+            sent = page.run_js('''return (function() {
+var b = document.querySelector(".btn-send");
+if (!b) return "no_btn";
+b.click();
+return "sent";
 })();''')
-        if ready:
-            break
-        time.sleep(1)
-    if not ready:
-        return False
-
-    page.run_js(
-        'var t=arguments[0]; var d=document.querySelector("[contenteditable=true]"); '
-        'if(d){d.focus(); d.textContent=t; '
-        'd.dispatchEvent(new InputEvent("input",{bubbles:true}));}',
-        greeting,
-    )
-    time.sleep(1.5)
-
-    # 点发送（先试click，不行用文本匹配）
-    sent = page.run_js('''return (function() {
-    var btn = document.querySelector(".btn-send");
-    if (!btn) return "no_btn";
-    btn.click();
-    return "sent";
-})();''')
-    if sent != "sent":
-        # fallback: 找包含"发送"文字的可点击元素
-        sent = page.run_js('''return (function() {
-    var all = document.querySelectorAll("div,span,a,button");
-    for (var e of all) {
-        if (e.textContent.trim() === "发送" && e.offsetParent && !(e.className||"").includes("disable")) {
-            e.click(); return "sent";
-        }
+            if sent != "sent":
+                sent = page.run_js('''return (function() {
+var all = document.querySelectorAll("div,span,a,button");
+for (var e of all) {
+    if (e.textContent.trim() === "发送" && e.offsetParent && !(e.className||"").includes("disable")) {
+        e.click(); return "sent";
     }
-    return "not_found";
+}
+return "not_found";
 })();''')
-    time.sleep(2)
-    return sent == "sent"
+            time.sleep(2)
+            return sent == "sent"
+
+        except Exception as e:
+            if retry < 2:
+                print(f" retry{retry+1}", end="", flush=True)
+                time.sleep(3)
+                continue
+            raise
+
+    return False
 
 
 def confirm_jobs(valid):

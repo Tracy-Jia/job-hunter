@@ -226,8 +226,68 @@ def check_english_requirement(jd_text, config=None):
     return hits
 
 
+def fetch_recruiter_name(page):
+    """从BOSS详情页提取招聘者姓名。BOSS页面在 [class*=boss-info] 区域展示：
+    第一行: 叶女士/施先生（姓名+性别）
+    第二行: 刚刚活跃/当前在线
+    第三行: 公司名·招聘者/HR经理（公司+职位）
+    返回 {'surname': '叶', 'full': '叶女士', 'gender': 'female', 'role': 'HR经理'} 或 {}。"""
+    result = page.run_js('''
+return (function() {
+    var sections = document.querySelectorAll("[class*=boss-info]");
+    for (var i = 0; i < sections.length; i++) {
+        var text = sections[i].textContent.trim();
+        var lines = text.split(String.fromCharCode(10)).map(function(l) { return l.trim(); }).filter(function(l) { return l; });
+        if (lines.length >= 1) {
+            // Return first 3 lines: [name, status, company·role]
+            return JSON.stringify(lines.slice(0, 3));
+        }
+    }
+    return "";
+})();
+''')
+    result = (result or "").strip()
+    if not result:
+        return {}
+
+    try:
+        lines = json.loads(result)
+    except json.JSONDecodeError:
+        return {}
+
+    if not lines or len(lines) < 1:
+        return {}
+
+    info = {}
+    name_line = lines[0]  # "叶女士" or "施先生"
+
+    # 解析姓名和性别
+    m = re.match(r'^([一-龥]{1,2})(女士|先生)', name_line)
+    if m:
+        info['surname'] = m.group(1)
+        info['gender'] = 'female' if '女士' in m.group(2) else 'male'
+        info['full'] = name_line
+    else:
+        # 降级：没有女士/先生后缀，可能是全名展示（如"张芳云"）
+        # 中文姓氏99%是单字（复姓如欧阳/司马为双字），优先取首字
+        surname_m = re.match(r'^([一-龥])', name_line)
+        if surname_m:
+            info['surname'] = surname_m.group(1)
+            info['full'] = name_line
+            # 尝试从2-3字的全名判断性别（不精确，标记为未知）
+
+    # 解析职位（第三行: "公司名·HR经理"）
+    if len(lines) >= 3:
+        role_line = lines[2]
+        role_m = re.search(r'[··](.+)$', role_line)
+        if role_m:
+            info['role'] = role_m.group(1).strip()
+
+    return info
+
+
 def fetch_jds_for(page, cards, count, config=None):
-    """逐个打开详情页读取JD + 提取明文薪资 + 提取通勤信息。"""
+    """逐个打开详情页读取JD + 提取明文薪资 + 提取通勤信息 + 招聘者姓名。"""
     for i, card in enumerate(cards[:count]):
         link = card.get("link", "")
         if not link:
@@ -241,6 +301,12 @@ def fetch_jds_for(page, cards, count, config=None):
             if clean_salary:
                 card["salary_clean"] = clean_salary
                 card["salary_min_k"] = parse_salary_min(clean_salary)
+
+            # 提取招聘者姓名
+            recruiter = fetch_recruiter_name(page)
+            if recruiter:
+                card["recruiter_name"] = recruiter
+                print(f" | HR:{recruiter.get('full','?')}", end="")
 
             # 提取通勤信息
             commute = fetch_commute_info(page)
@@ -287,7 +353,7 @@ def fetch_jds_for(page, cards, count, config=None):
                             parts.append(f"公交{commute['transit_min']}分钟")
                         if commute.get('drive_min') and commute.get('distance_km', 0) and commute['distance_km'] > 10:
                             parts.append(f"驾车{commute['drive_min']}分钟")
-                        print(f" | 📍通勤: {' | '.join(parts)}", end="")
+                        print(f" | 通勤: {' | '.join(parts)}", end="")
 
             # 英语要求检测
             eng_hits = check_english_requirement(card.get("jd_text", ""), config)
@@ -296,8 +362,9 @@ def fetch_jds_for(page, cards, count, config=None):
                 print(f" | ⚠️ENG:{','.join(card['english_required'][:2])}", end="")
             print()
         except Exception as e:
-            card["jd_text"] = f"[读取失败: {e}]"
-            print("FAILED")
+            if not card.get("jd_text") or card["jd_text"].startswith("["):
+                card["jd_text"] = f"[读取失败: {e}]"
+            print(f"WARN: {e}")
         time.sleep(3)
     return cards
 

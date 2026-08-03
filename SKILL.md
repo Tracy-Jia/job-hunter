@@ -11,13 +11,17 @@ origin: local
 ```
 ① fast scan    ② prefilter    ③ deep scan     ④ AI匹配+招呼语   ⑤ apply      ⑥ follow(可选)
   boss.py scan   boss.py        boss.py deep    Claude分析        boss.py      boss.py follow
-  12关键词/批     prefilter      读JD            按规范生成         apply        扫描未回复
-  ~3分钟         ~1秒            ~2分钟/个        招呼语            自动发送      二次沟通
+  12关键词/批     prefilter      读JD+招聘者     按规范生成         apply        扫描未回复
+  ~3分钟         ~1秒            ~2分钟/个        招呼语+称呼       自动发送      二次沟通
+
+⚠️ ①→⑤ 必须在同一会话完成（BOSS链接约2小时过期）
 ```
 
-**核心原则：没有 JD 文本，不生成招呼语。** 招呼语生成严格遵循 `greeting_guide.md`。
+**核心原则：没有 JD 文本，不生成招呼语。** 招呼语生成严格遵循 `greeting_guide.md`（v5 三段式：定调→举证→收尾，口语但不失专业）。
 
-**新增：启动时运行 `python boss.py status` 查看当前 pipeline 进度，避免重复工作。**
+**⚠️ URL时效性：BOSS职位详情页链接约2小时过期。扫描→预筛→读JD→生成招呼语→发送必须在同一会话完成，不可跨天。**
+
+**⚡ 启动时运行 `python boss.py status` 查看当前 pipeline 进度，避免重复工作。**
 
 ---
 
@@ -105,8 +109,9 @@ python boss.py deep --file prefiltered-xxx.json --top 20
     {
       "company": "公司名",
       "title": "岗位名",
-      "link": "详情页URL",
-      "greeting": "生成的招呼语",
+      "link": "详情页URL（注意时效）",
+      "recruiter_call": "王小姐 / 张先生 / 李经理",
+      "greeting": "生成的招呼语（含称呼前缀）",
       "match_score": 85,
       "match_points": ["匹配点1", "匹配点2"],
       "jd_summary": "JD一句话总结"
@@ -155,17 +160,20 @@ python boss.py follow --send -f followup_list.json
 
 ## 发送原理（applier.py）
 
-基于详情页属性提取，不依赖 SPA 按钮点击：
+详情页属性提取 + 搜索刷新链接 + add API发送：
 
 ```
-详情页 → 提取 a.btn-startchat 的 data-url + redirect-url
-      → POST data-url (add.json API) 建立好友连接
-      → 导航到 redirect-url (聊天页面)
-      → 输入招呼语到 [contenteditable=true]
-      → 点击 .btn-send 发送
+Step 0: 搜索公司名 → 匹配岗位 → 获取新鲜job_detail链接（解决URL时效性问题）
+Step 1: 详情页 → 提取 [class*=boss-info] 中招聘者姓名（如"叶女士"→叶小姐）
+Step 2: 查找"立即沟通"按钮 → 提取 redirect-url + data-url
+Step 3: 点击按钮（触发 add.json API 建立好友连接）
+Step 4: 导航到 redirect-url 聊天页面
+Step 5: 输入招呼语到 [contenteditable=true] → 点击 .btn-send 发送
 ```
 
 **注意**：add.json 会触发 BOSS 自动发送默认招呼语。我们的定制招呼语是第2条消息。详见 `greeting_guide.md` 的"重要前置知识"。
+
+**招聘者姓名提取**：deep scan 阶段从详情页 `[class*=boss-info]` 提取（格式：`叶女士`/`施先生`/`张芳云`）。有性别标注的用"X小姐/X先生"，无标注的用"X经理"。
 
 ---
 
@@ -225,3 +233,4 @@ python boss.py follow --send -f followup_list.json
 - 发送间隔 ≥ 8 秒（建议 10 秒）
 - 每日投递总量建议 ≤ 30
 - 上午 10:00-11:30 是 HR 活跃窗口，投递效果最好
+- **⚠️ job_detail 链接约2小时过期，扫描和发送必须同会话完成**
