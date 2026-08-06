@@ -1,0 +1,49 @@
+{
+  "sent": [
+    {
+      "company": "上海风雅颂歌",
+      "title": "高级HRBP",
+      "recruiter_call": "杨小姐",
+      "greeting": "杨小姐，我做了8年全盘HR，深入业务部门解决组织问题是我过去几年的主线——识别过团队协作、人才结构、管理流程的卡点，形成方案推到闭环。前司300人团队的HR全模块我都是直接负责，杨浦离我很近～",
+      "match_score": 76,
+      "match_points": [
+        "组织诊断与解决",
+        "全盘HR实操",
+        "通勤便利"
+      ],
+      "link": "https://www.zhipin.com/job_detail/fc5f05ad97c288c80nJ709-1EVpW.html",
+      "reason": "send_failed",
+      "send_time": "17:00:13"
+    },
+    {
+      "company": "某小型物业管理公司",
+      "title": "总经理助理（双休）",
+      "recruiter_call": "颜先生",
+      "greeting": "颜先生，我之前做过5年总裁业务秘书+总裁办主任，协助总经理处理日常运营、外联接待、文件统筹这些都很熟。还统筹过6场500+人行业论坛，供应商谈判年均节约20%。双休这点跟我的预期一致～",
+      "match_score": 75,
+      "match_points": [
+        "5年总裁秘书+办主任",
+        "大型活动统筹",
+        "双休"
+      ],
+      "link": "https://www.zhipin.com/job_detail/4987674b0fd0d7e60nVy2N68FlVX.html",
+      "reason": "send_failed",
+      "send_time": "17:00:44"
+    },
+    {
+      "company": "大连亨睿达信息技术",
+      "title": "行政主管",
+      "recruiter_call": "张小姐",
+      "greeting": "张小姐，8年全盘HR+行政综合管理，你JD要的行政各板块经验我都有——制度流程、SOP手册、办公空间管理、供应商谈判都实际做过。医药和互联网行业我都接触过，黄浦人民广场过去也方便～",
+      "match_score": 65,
+      "match_points": [
+        "行政全板块",
+        "医药+互联网行业"
+      ],
+      "link": "https://www.zhipin.com/job_detail/daa25627d09802ed0nF92d21F1FY.html",
+      "reason": "send_failed",
+      "send_time": "17:01:15"
+    }
+  ],
+  "failed": []
+}
