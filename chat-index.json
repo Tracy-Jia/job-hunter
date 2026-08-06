@@ -1,0 +1,6536 @@
+{
+  "version": 2,
+  "conversations": {
+    "刘耀宁冰鉴人才信息科技...猎头顾问": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 4,
+      "friend_msgs": 5,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 4,
+          "friend_msgs": 5
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 4,
+          "friend_msgs": 5
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 4,
+          "friend_msgs": 5
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我在前司完整主导了自研HR系统从0到1的全流程——从需求分析、技术架构讨论、5大模块设计到上线推广，我是核心需求方和项目推动者。系统覆盖组织人事、薪酬绩效、考勤档案、合同管理，上线后人均服务比从1:30提升至1:80。岗位JD描述的HRIS自研负责人角色——牵头规划、需求拆解、跨部门协同、分阶段迭代——跟我过去几年的核心工作几乎完全重叠。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "方便发一份简历过来吗？"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": true,
+          "text": "已读 你先吃饭，晚点我给你发过来"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-HR... 已发送给Boss点击查看附件"
+        },
+        {
+          "mine": true,
+          "text": "已读 我昨天刚开通了github账号传了自己做的产品，有需要的话我把主页链接发你"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    },
+    "李飞飞君和堂中医连锁招聘者": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 3,
+      "friend_msgs": 5,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 5
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "君和堂中医连锁",
+        "title": "绩效经理",
+        "send_time": "11:29:10",
+        "match_score": 78,
+        "log_file": "apply-log-0729-1132.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我做了8年绩效管理，从方案设计、测算、落地到效果评估全链路都是亲手交付的。在前司给两条产品线设计过差异化绩效方案——软硬件分开设考核指标和激励结构，方案落地后新人留存率从40%提升至75%。岗位JD里实体零售行业的绩效体系优化，我在前司管过全国近300人销售团队的绩效考核，多门店的绩效逻辑相通。杨浦五角场离我很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "您好啊，方便发一份附件简历吗"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-HR... 已发送给Boss点击查看附件"
+        },
+        {
+          "mine": true,
+          "text": "已读 请问有意向进一步接触吗？"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    },
+    "周先生复旦微电子测试主管": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 6,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 6
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "麻烦简历发一下"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-人力资源总监-18702508467.pdf"
+        },
+        {
+          "mine": true,
+          "text": "已读 请查收，希望有机会进一步了解"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    },
+    "钱骏吉济南阿尔伯特人才服务猎头顾问": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我在前司完整经历了从管培生到人力总监的9年，HR每个模块都亲手从零建过。制度文件30+份、12模块SOP手册、自研HR系统从0到1——这些都是我的日常交付。刚好过去一年我在用AI优化HR流程，从简历筛选到薪酬核验都跑过，对AI+HR的结合有实战体感。岗位JD描述的早期团队从零到一建设，恰好是我最擅长的阶段。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "很抱歉，您的简历和我们当前的职位需求不是很匹配。祝您在BOSS直聘找到满意的工作！"
+        }
+      ]
+    },
+    "周先生上海嘉驰信息技术咨询HRBP经理": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 6,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 6
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你好，看过了你的简历，希望和你交流一下"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 好的，请稍等一下"
+        },
+        {
+          "mine": true,
+          "text": "已读 这会儿方便"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-HRM+C&B+ER+HRBP+HRIS-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    },
+    "顾先生上海华氧人力资源总监HRD": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-08-04",
+      "latest_state": "interview_invite",
+      "my_msgs": 4,
+      "friend_msgs": 7,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "interview_invite",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-07-30",
+          "state": "interview_invite",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-07-30",
+          "state": "interview_invite",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-07-31",
+          "state": "interview_invite",
+          "my_msgs": 4,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-03",
+          "state": "interview_invite",
+          "my_msgs": 4,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-04",
+          "state": "interview_invite",
+          "my_msgs": 4,
+          "friend_msgs": 7
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海华氧",
+        "title": "HRBP/总经理助理",
+        "send_time": "18:27:06",
+        "match_score": 80,
+        "log_file": "apply-log-0728-1829.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "方便发一份你的简历过来吗？"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-总经理助理-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "在职还是离职？"
+        },
+        {
+          "mine": true,
+          "text": "已读 已经是离职状态 随时可以到岗"
+        },
+        {
+          "mine": false,
+          "text": "什么时候方便过来面试吗？"
+        },
+        {
+          "mine": true,
+          "text": "已读 抱歉，没留意到大小休，这个暂时不考虑，祝你早日找到合适候选人"
+        }
+      ]
+    },
+    "赵女士上海能良招聘专家": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 7,
+      "friend_msgs": 11,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 7,
+          "friend_msgs": 11
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 7,
+          "friend_msgs": 11
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 7,
+          "friend_msgs": 11
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 了解，我微信问一下 因为她的安排在很久之前而且不了了之了"
+        },
+        {
+          "mine": true,
+          "text": "已读 我还以为她离职了"
+        },
+        {
+          "mine": false,
+          "text": "好吧"
+        },
+        {
+          "mine": true,
+          "text": "已读 我来沟通一下吧"
+        },
+        {
+          "mine": true,
+          "text": "已读 有必要吗"
+        },
+        {
+          "mine": false,
+          "text": "呃 我建议不用了"
+        },
+        {
+          "mine": false,
+          "text": "我认为大概率某些原因 她推动不了了"
+        },
+        {
+          "mine": false,
+          "text": "但是具体我就不是很清楚了"
+        }
+      ]
+    },
+    "陈女士试试咨询猎头顾问": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 3,
+      "friend_msgs": 13,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 13
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 13
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 13
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "我司核心优势：1. 佣金比例高（猎头交付65%，全网最高）；2. 全部是直签客户的一手单，且均为熟悉客户的单子，与甲方HR对接单子推进快，不做二手单，不做平台单；3.回款与佣金从不拖延，且服务费率信息完全公开透明（没有中间商赚差价）；4. 个人发挥空间大：可做360度顾问，可只做招聘交付，自带资源更能收获永久“睡后”收入。"
+        },
+        {
+          "mine": false,
+          "text": "1. 我们的流程是：参加线上介绍会---线上面试（一对一交流）----签合作协议----开始做单。2. 介绍会的安排：每周三14：00-16：00、周六上午9:00-11:00，由创始人亲自介绍，包含业务模式/佣金激励制度/落地流程/工作要求等。基本能解答您的疑问。3. 感兴趣，加微信，共享更多公司资料、线上介绍会会议链接。"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "我想要和您交换微信，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "可以先参加我们的腾讯线上介绍会，会全面介绍您想了解的，您的疑问基本能得到解答。之后再做决定与推进下一步。就当对猎头行业做更进一步的了解也无妨啊！"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-HR... 已发送给Boss点击查看附件"
+        },
+        {
+          "mine": false,
+          "text": "wmc20240527陈女士的微信号wmc20240527复制微信号"
+        },
+        {
+          "mine": false,
+          "text": "已加微信"
+        }
+      ]
+    },
+    "唐女士试试咨询猎头顾问": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 4,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我擅长销售岗位的薪酬提成方案设计和绩效体系搭建。在前司给两条产品线完整做过差异化提成+阶梯考核+超额分红方案，从测算到落地全程主导。方案落地后新人留存率从40%提到75%，销售成本降了26%。岗位JD里新零售行业的人力管理——销售薪酬逻辑和上海劳动法规合规要求，都是我的核心能力区。经历过仲裁应对和300+人协商安置，全流程合规验证。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "方便发一份简历过来吗？"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-HR... 已发送给Boss点击查看附件"
+        }
+      ]
+    },
+    "漆慧芳Bovis招聘主管": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "salary_discussion",
+      "my_msgs": 0,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "salary_discussion",
+          "my_msgs": 0,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-07-30",
+          "state": "salary_discussion",
+          "my_msgs": 0,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-07-30",
+          "state": "salary_discussion",
+          "my_msgs": 0,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "昨天 14:48你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "哈喽～未来的宝藏队友！✨我们是Bovis，专注人才发展与领导力咨询24年。团队小而美，零内耗、超放松，专注搞事业也认真玩！📚 在这里≈带薪进修——知识更新快，成长也快！💰 薪资不设上限，能力多强舞台多大。等你来一起发光，玩着就把事业闯了！🚀"
+        }
+      ]
+    },
+    "戴女士上海从鲸信息技术Recruiter": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海从鲸信息技术",
+        "title": "hris专家",
+        "send_time": "11:32:19",
+        "match_score": 82,
+        "log_file": "apply-log-0729-1132.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 我在前司主导自研HR系统从0到1上线，5大模块线上化，打通钉钉。从需求承接、方案设计、协调技术团队开发测试到上线推广全流程都亲手做过。系统运行期间零数据差错，也持续在做迭代优化——根据业务反馈调整功能和流程。岗位JD里HR数字化产品解决方案的方向，跟我的实战经验直接对标。长宁中山公园离我很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "刘女士翰格添才猎头顾问": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我专注薪酬绩效8年，从薪酬体系搭建、奖金方案设计到数据复盘全链路独立交付。在前司设计过两条产品线的差异化薪酬方案，搭建了多级数据交叉核验机制，负责300+人月度薪酬核算，连续多年零差错。岗位JD里对薪酬体系搭建和数据分析的要求，跟我的专业主线完全一致——从薪资带宽测算到人工成本分析都是日常交付。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "郑女士霸王茶姬高级招聘经理": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "霸王茶姬",
+        "title": "行政BP(A251165)",
+        "send_time": "11:29:42",
+        "match_score": 78,
+        "log_file": "apply-log-0729-1132.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 我做了8年行政全盘管理，擅长集团制度体系输出和多区域标准化落地。在前司输出过30+份制度文件和12模块SOP手册，全公司推广使用。负责行政费用预算管控和供应商集中谈判，年均预算节余约20%。岗位JD里行政BP的角色——输出制度流程、赋能区域落地、分析数据驱动优化——恰好是我过去几年的工作模式。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "刘女士瑞声科技招聘专家": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "瑞声科技",
+        "title": "HR系统架构师（HRIS/HR信息系统顾问）",
+        "send_time": "11:28:38",
+        "match_score": 82,
+        "log_file": "apply-log-0729-1132.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我在前司主导了自研HR系统从0到1的全流程——从需求分析、技术对接、5大模块设计到上线推广，我是核心需求方和主管理员。系统覆盖考勤、薪酬、绩效、档案、合同，上线后人均服务比从1:30提升至1:80。岗位JD里AI在HR领域的应用方向，我过去一年在用AI优化简历筛选和薪酬核验，对这一块有实战体感。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "韩女士潍坊易鸿猎头顾问": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 4,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我有5年直接向总经理汇报的全盘HR经验，覆盖人力报表、薪酬架构调整和跨部门流程梳理。在前司负责300+人全盘HR，从年度人力总结到薪酬结构调整都是向总裁直接交付。年度总结和数据报表连续多年零差错，薪酬架构调整方案获总裁审批落地。岗位JD里外企向总部汇报的模式我能适应——之前跟欧洲合作方打过交道，英语读写处理邮件和报表没问题。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "方便发一份简历过来吗？"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-人... 已发送给Boss点击查看附件"
+        }
+      ]
+    },
+    "胡女士微谱HRS": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 3,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "微谱",
+        "title": "薪酬经理/专家（集团岗）",
+        "send_time": "18:22:59",
+        "match_score": 72,
+        "log_file": "apply-log-0728-1822.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我擅长集团层面的薪酬体系搭建和变革落地。在前司主导过全公司薪酬结构调整，从0到1设计两条产品线差异化薪酬方案，覆盖成本测算、制度流程、落地宣导和数据分析复盘全链路。方案落地后薪酬核算连续多年零差错，人工成本管控有量化成果。岗位JD要求咨询公司背景，我虽然没有乙方经历，但在甲方完整走过薪酬变革全流程，实战深度可以对标。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "我们认真审阅了您的简历，但暂不完全匹配岗位情况。祝您在BOSS直聘找到更合适的机会！"
+        },
+        {
+          "mine": true,
+          "text": "送达 好的，祝早日找到合适候选人"
+        }
+      ]
+    },
+    "彭先生上海兰柯人事经理": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 4,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "您好，您把简历留我一下吧"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-人... 已发送给Boss点击查看附件"
+        },
+        {
+          "mine": true,
+          "text": "已读 看了下jd 确实挺匹配的，希望有机会进一步沟通"
+        }
+      ]
+    },
+    "庄女士禾兹实业创始人": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "禾兹实业",
+        "title": "人事总监HR HRBP",
+        "send_time": "11:02:19",
+        "match_score": 78,
+        "log_file": "apply-log-0729-1102.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 我从管培生做到人力总监用了8年，全盘HR每个模块都亲手建过。在前司主导过两次组织架构调整，从部门拆分、汇报线重设到岗位体系梳理全程跟。也主导了自研HR系统从0到1上线，5大模块覆盖考勤、薪酬、绩效、档案、合同，我是核心需求方和主管理员。岗位JD描述的人事总监职责——战略规划、体系搭建、组织设计——跟我过去几年向总裁直接汇报的工作内容几乎一一对应。静安江宁路离我很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "周女士上海雅洁口腔医院招聘专家": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海雅洁口腔医院",
+        "title": "口腔行政主管/经理（双休/连锁/医保定点）",
+        "send_time": "11:01:47",
+        "match_score": 70,
+        "log_file": "apply-log-0729-1102.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我做了8年行政全盘管理，从制度搭建、费用管控到后勤统筹都是亲手做的。在前司负责行政费用预算管控和供应商集中谈判，年均预算节余约20%。统筹过3年6场500+人次大型行业论坛，零事故。输出的12模块SOP手册全公司推广使用至今。岗位JD里连锁机构的行政体系管理——多门店的标准化运营正好是我擅长的方向。双休+宝山共康离我很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "章女士南极电商招聘专家": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "南极电商",
+        "title": "薪酬主管",
+        "send_time": "11:01:16",
+        "match_score": 70,
+        "log_file": "apply-log-0729-1102.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我做了8年薪酬绩效，从方案设计到数据核算到成本分析全链路都能独立交付。在前司搭建过多级数据交叉核验机制，负责300+人月度薪酬核算全流程，连续多年零差错。也用AI工具优化过薪酬数据核验流程，原来半天的手工核对现在半小时跑完。岗位JD的薪酬主管方向跟我的专业主线完全一致，电商行业的薪酬激励逻辑也是我一直关注的。杨浦五角场很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "王女士bilibiliHRBP": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "bilibili",
+        "title": "游戏发行HRBP",
+        "send_time": "11:00:44",
+        "match_score": 82,
+        "log_file": "apply-log-0729-1102.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 我在科技公司做了9年HRBP，组织诊断和变革推动是我的日常。在前司主导过两次组织架构调整，从部门拆分到汇报线重设都是全程跟的。同时把AI工具系统性用在了HR场景——简历筛选、薪酬核算校验、绩效数据分析都跑通过，HR系统上线后人均服务比从1:30提升至1:80。岗位JD最后一条\"熟练使用AI agent能力者优先\"，恰好是我过去一年实践最深入的方向。杨浦五角场离家很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "高孔秋上海湘商贸易有限公司招聘者": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海湘商贸易有限公司",
+        "title": "HRBP",
+        "send_time": "11:00:13",
+        "match_score": 78,
+        "log_file": "apply-log-0729-1102.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我在科技公司从管培生做到人力总监，9年没换过赛道。前司扩张期从100人到1000人，每个阶段的招聘策略、人才梯队和绩效体系都是我从零搭建的。扩张期核心岗位到岗率保持稳定，组织架构调整后团队适配度明显提升。岗位JD里电商和MCN赛道我很关注——之前给销售团队做过差异化提成方案，对零售业务逻辑不陌生。杨浦五角场离我很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "左先生上海佑琳商贸有限公司人事": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海佑琳商贸有限公司",
+        "title": "人事经理",
+        "send_time": "10:59:41",
+        "match_score": 72,
+        "log_file": "apply-log-0729-1102.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 我做了8年全盘HR，从制度搭建、招聘、薪酬绩效到员工关系都是亲手交付的。在前司输出过30+份制度文件和12模块SOP手册，全公司推广使用至今。处理过仲裁应对和300+人协商安置，全流程经合规验证。岗位JD里连锁门店的人事管理——我之前管理覆盖全国近300人的市场团队，多地点、多门店的人力统筹逻辑是相通的。静安江宁路离我很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "王厉钊上海创神网络科技招聘主管": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海创神网络科技",
+        "title": "薪酬绩效专家",
+        "send_time": "18:25:56",
+        "match_score": 75,
+        "log_file": "apply-log-0728-1829.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我擅长绩效管理体系搭建和多轮迭代优化。在前司主导过从目标设定、考核标准制定到绩效改进计划的全流程，覆盖300+人规模。绩效结果和薪酬、晋升打通形成闭环，多轮迭代后核心人才留存显著改善。岗位JD里游戏行业的绩效设计场景我很想尝试——不同项目组的差异化考核逻辑跟我在前司给不同产品线做差异化方案的经验相通。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "感谢您投递我们公司，您的简历与职位需求不是很相符，再次感谢"
+        }
+      ]
+    },
+    "张女士忆生科技人力资源部负责人": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "宋婷婷吉野家(中国)投资人事": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "刘先生高顿教育集团资深招聘管理": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "reviewing",
+      "my_msgs": 4,
+      "friend_msgs": 7,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "reviewing",
+          "my_msgs": 4,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-07-30",
+          "state": "reviewing",
+          "my_msgs": 4,
+          "friend_msgs": 7
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "高顿教育集团",
+        "title": "hrbp专家/总监/Leader",
+        "send_time": "18:27:53",
+        "match_score": 75,
+        "log_file": "apply-log-0728-1829.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 工作地点我可以接受。"
+        },
+        {
+          "mine": false,
+          "text": "您好，方便同步一份您的简历吗 ~"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-人... 已发送给Boss点击查看附件"
+        },
+        {
+          "mine": true,
+          "text": "已读 我从管培生做到人力总监，8年没换过公司，擅长全模块从0到1搭建。在前司亲手建了人才梯队、绩效体系和员工关系三个模块，从制度设计到落地执行全程跟。政策落地率和制度执行合规率100%，经历过两次组织架构调整的实战检验。教育行业我关注很久了——岗位JD里强调的政策落地和企业文化建设，跟我的主线完全一致。虹口离我住的地方很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "OK"
+        },
+        {
+          "mine": false,
+          "text": "您的简历同步推进，匹配要求后做进一步沟通～"
+        },
+        {
+          "mine": true,
+          "text": "已读 好的"
+        }
+      ]
+    },
+    "侯女士BOSS直聘猎头猎头顾问": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 3,
+      "friend_msgs": 7,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 我擅长从0到1搭建招聘体系和人力基础框架。在前司从100人到1000人的扩张期，每个阶段的招聘策略、人才梯队和绩效体系都是亲手从零建的。招聘体系支撑了3年内从80人到300+人的业务扩张，核心岗位到岗率保持稳定。岗位JD里互联网行业HRBP的要求跟我的经验直接对标——快速迭代、数据驱动、业务导向。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "方便发一份简历过来吗？"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-人... 已发送给Boss点击查看附件"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        },
+        {
+          "mine": false,
+          "text": "您好"
+        },
+        {
+          "mine": false,
+          "text": "我加您微信了 辛苦通过~·"
+        },
+        {
+          "mine": true,
+          "text": "已读 已通过"
+        }
+      ]
+    },
+    "江健百秋尚美HRD": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 3,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 3
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你好，看了你的在线简历，与我们招聘岗位非常匹配，所以对你也比较感兴趣。请问你现在方便吗？我们可以简单聊下吗？"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 你好，薪酬不太符合预期，祝你早日找到合适候选人"
+        },
+        {
+          "mine": true,
+          "text": "已读 不过我有个朋友感觉和jd比较匹配，我把你们jd链接发给她"
+        },
+        {
+          "mine": false,
+          "text": ""
+        }
+      ]
+    },
+    "魏女士中广资本集团招聘经理": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 4,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "中广资本",
+        "title": "薪酬绩效总监",
+        "send_time": "18:21:31",
+        "match_score": 80,
+        "log_file": "apply-log-0728-1822.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我做了8年薪酬绩效，从方案设计到数据复盘全链路都能独立交付。在前司主导过全公司薪酬结构调整，从薪资带宽测算、KPI指标库建设到差异化销售提成方案落地。搭建的数据交叉核验机制连续多年零差错。岗位JD里金融行业的薪酬逻辑我很想深入了解，之前在科技公司也涉及过业务线和职能线的差异化激励设计。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "你好啊，可以聊一聊~"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-人... 已发送给Boss点击查看附件"
+        }
+      ]
+    },
+    "钟女士北京字跳网络技术招聘HR": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "北京字跳网络技术",
+        "title": "HRBP-抖音（上海）",
+        "send_time": "18:27:30",
+        "match_score": 75,
+        "log_file": "apply-log-0728-1829.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我在科技公司做了9年HRBP，从管培生一路做到人力总监，擅长团队搭建和人才发展。在前司经历了从100人到1000人的完整扩张周期，每个阶段的招聘策略、人才梯队、绩效体系都是亲手建的。核心人才盘点和继任计划有完整交付，扩张期招聘满足率保持高位。岗位JD里字节的HRBP角色描述跟我过去的工作模式很像——深入业务、推动组织发展、在快速迭代中保持人才供给。杨浦离五角场很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "孙琳琦锐仕方达武汉四分猎头顾问": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我擅长薪酬核算体系搭建和HR系统主数据管理。在前司主导自研HR系统从0到1上线，5大模块覆盖考勤、薪酬、绩效、档案、合同，我是核心需求方和主管理员。系统运行期间零数据差错，人均服务比从1:30提升至1:80。岗位JD里科研机构的薪酬管理场景——人才政策落地和福利体系优化正是我感兴趣的领域。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "曾蓉嘉信立恒招聘者": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "嘉信立恒",
+        "title": "薪酬福利主管/经理",
+        "send_time": "18:26:19",
+        "match_score": 72,
+        "log_file": "apply-log-0728-1829.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 我专注薪酬福利管理，精通薪资核算、社保公积金、个税申报和合规风控。在前司负责300+人月度薪酬核算全流程，搭建过多级数据交叉核验机制。连续多年零差错、零合规事故，定期输出薪酬成本数据报告支撑管理层决策。岗位JD里对劳动法和税法合规的重视，跟我的工作习惯一致——合规一直是我做薪酬的底线。钉钉熟练使用。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "蔡女士上海瀚仕企业管理咨询猎头顾问": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": true,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我的主线是薪酬绩效，做了8年，熟悉宽带薪级体系和销售激励方案设计。在前司负责300+人全盘薪酬核算和成本管控，搭建过多级数据交叉核验机制。连续多年薪酬核算零差错，人工成本分析和报表输出是日常交付。岗位JD里提到的医药行业C&B管理，虽然行业不同，但薪酬体系搭建和成本管控的底层方法相通。英语读写处理报表没问题。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "朱女士堡尼永成人事行政主管": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "堡尼永成",
+        "title": "高级人事行政经理",
+        "send_time": "18:21:07",
+        "match_score": 88,
+        "log_file": "apply-log-0728-1822.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 我擅长零售行业的销售团队薪酬绩效方案设计。在前司独立设计过两条产品线的销售薪酬方案，软硬件差异化提成+阶梯考核+超额分红。新人留存率从40%提到75%，销售成本降了26%。看到岗位JD里对零售薪酬模型的详细描述，跟我的经验结构很匹配——从单店到多门店连锁的扩张阶段，恰好是我在前司经历过的。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "王女士淘宝闪购招聘HR": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "淘宝闪购",
+        "title": "淘宝闪购-综合行政专家-上海",
+        "send_time": "18:52:54",
+        "match_score": 75,
+        "log_file": "apply-log-0728-1852.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 我擅长行政流程智能化升级和全链路行政管理。在前司推过AI在HR和行政场景的系统性落地，空间运营、成本管控、供应商管理和活动策划全链路都做过。供应商集中谈判年省预算约20%，钉钉主管理员，3年6场大型活动零事故。岗位JD里用AI工具优化行政流程的方向跟我的实践方向一致——行政不只是执行，可以通过智能化和标准化释放更大的管理价值。大厂的服务标准我适应得来。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "朱裕锋景瑞物业招聘经理": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 3,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "景瑞物业",
+        "title": "行政经理(J11224)",
+        "send_time": "18:52:18",
+        "match_score": 72,
+        "log_file": "apply-log-0728-1852.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 测试定制招呼语123abc execCommand"
+        },
+        {
+          "mine": true,
+          "text": "已读 我8年行政体系建设经验，从制度搭建到全盘落地都是亲手做的。在前司负责档案证照印章管理、行政费用预算管控、供应商管理和员工活动策划执行全链路。供应商集中谈判年省约20%，制度文件30+份全公司推广，行政费用管控有效。岗位JD里物业行业的行政管理——制度体系建设、费用管控和员工关怀活动，跟我在前司做的事情底层相通。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "朱女士上海振鼎鸡实业发...招聘者": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "only_me",
+      "my_msgs": 3,
+      "friend_msgs": 0,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        },
+        {
+          "date": "2026-07-30",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        },
+        {
+          "date": "2026-07-30",
+          "state": "only_me",
+          "my_msgs": 3,
+          "friend_msgs": 0
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海振鼎鸡实业发...",
+        "title": "总经办主任",
+        "send_time": "18:51:42",
+        "match_score": 80,
+        "log_file": "apply-log-0728-1852.json"
+      },
+      "is_manual": false,
+      "followup_count": 2,
+      "last_followup_date": "2026-08-06",
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": true,
+          "text": "已读 我做了5年总裁办主任，跟这个岗位的职责描述几乎完全对标。在前司负责组织会议、编写纪要、跟进决议落实、信息搜集分析和为总经理提供决策参考。会议决议事项落地率100%，年度计划和重点工作全程跟踪闭环。岗位JD里餐饮行业的总经办管理我很想深入了解——从前司科技行业切换到餐饮，总经办的底层管理逻辑相通，行业特性可以快速学习。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": true,
+          "text": "已读 之前和您打过招呼，怕您太忙没看到。我对贵司这个机会一直挺有意向的，如果有什么需要我补充信息的随时和我说～"
+        }
+      ]
+    },
+    "周明远开尔唯人事": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "开尔唯",
+        "title": "综合管理部主任",
+        "send_time": "18:51:06",
+        "match_score": 82,
+        "log_file": "apply-log-0728-1852.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 我的总经办管理经验覆盖了你岗位JD里的三个维度——行政体系、采购管理和对外关系。在前司作为总裁办主任，5年负责年度计划制定、重要会议组织、公文流转、对外关系维护和供应商采购管理。供应商集中谈判年省约20%，大型会议和接待零事故，制度文件和SOP体系全公司推广。岗位JD三维职责的综合管理角色，跟我在前司的角色几乎完全对标——既是总裁的参谋助手，也是行政和采购的实际操盘人。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "林先生PayInOneCEO": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-08-03",
+      "latest_state": "conversation_ended",
+      "my_msgs": 4,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        },
+        {
+          "date": "2026-07-30",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        },
+        {
+          "date": "2026-07-30",
+          "state": "only_me",
+          "my_msgs": 3,
+          "friend_msgs": 0
+        },
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 4,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 4,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "PayInOne",
+        "title": "CEO助理/总裁助理/总助",
+        "send_time": "18:50:31",
+        "match_score": 80,
+        "log_file": "apply-log-0728-1852.json"
+      },
+      "is_manual": false,
+      "followup_count": 1,
+      "last_followup_date": "2026-07-30",
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": true,
+          "text": "已读 我做了5年总裁办主任，向总裁直接汇报，擅长跨部门协调和业务推动。在前司负责总裁日程管理、会议纪要追踪闭环、跨部门资源协调和重点项目推进，同时参与战略规划讨论。决议事项落地率100%，带过8人团队，在公司最困难时跟总裁一起制定并落地了人员优化方案。岗位JD描述的CEO助理角色——协助管理日常、推动业务落地、提供决策参考——跟我过去几年的工作内容高度重合。静安寺离我很近。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": true,
+          "text": "已读 之前和您打过招呼，怕您太忙没看到。我对贵司这个机会一直挺有意向的，如果有什么需要我补充信息的随时和我说～"
+        },
+        {
+          "mine": false,
+          "text": "感谢您的关注，看了你的简历以后觉得不太合适，希望你早日找到满意的工作机会。"
+        },
+        {
+          "mine": true,
+          "text": "送达 好的，祝早日找到合适候选人"
+        }
+      ]
+    },
+    "刘佳豪驼钢物流总经理": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 3,
+      "friend_msgs": 4,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 4
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "驼钢物流",
+        "title": "人事行政总监",
+        "send_time": "18:47:36",
+        "match_score": 78,
+        "log_file": "apply-log-0728-1847.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "麻烦发我一份简历，谢谢"
+        },
+        {
+          "mine": true,
+          "text": "已读 我过去8年做的正是全面统筹人力行政、推动组织效能提升。在前司亲手搭建和迭代了人才战略、绩效薪酬体系、行政后勤和企业文化建设全套框架。经历了公司从100人到1000人的扩张和收缩期的精细化管理，体系在两个极端场景下都经住了考验。岗位JD强调的组织战略思维和落地能力，跟我的经验路径一致——从体系设计到推动变革到日常运营，全链路都走过。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-人力资源总监-18702508467.pdf"
+        },
+        {
+          "mine": true,
+          "text": "已读 在线简历是齐全的，这个版本稍侧重人力方向"
+        }
+      ]
+    },
+    "王女士动念涌现HR": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-30",
+      "latest_state": "only_me",
+      "my_msgs": 3,
+      "friend_msgs": 0,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        },
+        {
+          "date": "2026-07-30",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        },
+        {
+          "date": "2026-07-30",
+          "state": "only_me",
+          "my_msgs": 3,
+          "friend_msgs": 0
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "动念涌现",
+        "title": "行政经理（AI Native Office）",
+        "send_time": "18:49:55",
+        "match_score": 80,
+        "log_file": "apply-log-0728-1852.json"
+      },
+      "is_manual": false,
+      "followup_count": 2,
+      "last_followup_date": "2026-08-06",
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": true,
+          "text": "已读 我8年全盘行政经验，同时有AI工具在行政场景落地的实战。在前司推过AI在HR和行政场景的系统性应用，行政采购、供应商管理、固定资产台账、员工活动策划全链路都做过。供应商集中谈判年省预算约20%，3年6场500+人次大型论坛零事故。岗位JD提的AI Native Office概念我特别认同——用AI优化行政流程、提升办公效率，正是我在前司验证过的方向。钉钉主管理员。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        },
+        {
+          "mine": true,
+          "text": "已读 之前和您打过招呼，怕您太忙没看到。我对贵司这个机会一直挺有意向的，如果有什么需要我补充信息的随时和我说～"
+        }
+      ]
+    },
+    "尹女士万朗水务人事专员": {
+      "first_seen": "2026-07-29",
+      "last_scanned": "2026-07-29",
+      "latest_state": "only_me",
+      "my_msgs": 2,
+      "friend_msgs": 0,
+      "state_history": [
+        {
+          "date": "2026-07-29",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "万朗水务",
+        "title": "人力行政总监",
+        "send_time": "18:49:19",
+        "match_score": 80,
+        "log_file": "apply-log-0728-1852.json"
+      },
+      "is_manual": false,
+      "followup_count": 1,
+      "last_followup_date": "2026-08-06",
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": true,
+          "text": "已读 我在前司的实际角色就是人力行政总监——全盘HR+行政统筹+向总经理汇报。主导过两次组织架构调整、自研HR系统从0到1上线，也处理过公司资金链断裂时300+人协商安置的极端场景。组织调整后运营效率显著提升，HR系统上线后人均服务比从1:30提升至1:80。岗位JD描述的人力行政总监职责，跟我过去几年每天做的事情几乎一一对应。有6年以上集团化管理经验。很希望能有机会互相深入了解。简历在附件，期待回复。"
+        }
+      ]
+    },
+    "魏林上海吉小嘉网络科技总经理": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 7,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 7
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 您好，可以看看我的简历"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-总助（行政人事运营方向)-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        },
+        {
+          "mine": false,
+          "text": "好的，我发给人资部门。"
+        },
+        {
+          "mine": true,
+          "text": "已读 好的"
+        }
+      ]
+    },
+    "付昱峰冠松汽车招聘经理": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 3,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "冠松汽车",
+        "title": "董事办行政经理",
+        "send_time": "15:20:43",
+        "match_score": 55,
+        "log_file": "apply-log-0730-1520.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 3年总裁办主任经验，政企接待和会务保障是日常——统筹过6场500+人次行业论坛，政府领导和重要客户参访全程接待。行政制度编制和公文起草也实际做过，12个SOP模块全公司推广。跨部门协调在总裁办期间就是核心工作～"
+        },
+        {
+          "mine": false,
+          "text": "抱歉，经过认真评估，您过往经历暂时不适合我们项目的当前情况。祝您在BOSS直聘找到您的理想工作！"
+        },
+        {
+          "mine": true,
+          "text": "送达 好的，祝早日找到合适候选人"
+        }
+      ]
+    },
+    "季男上海研鼎招聘经理": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海研鼎",
+        "title": "人事经理 / HRBP Manager",
+        "send_time": "15:20:15",
+        "match_score": 85,
+        "log_file": "apply-log-0730-1520.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 你们JD写得很专业，每一条我都找到了对应经历——薪酬设计方面，前司做过两条产品线差异化提成方案，软硬件分开考核。绩效闭环从目标拆解到校准完整跑过。劳动法部分：100+人协商安置零仲裁，制度体系经仲裁验证合规。HR系统5个模块从0到1上线。住在杨浦，驾车半小时可到张江～"
+        }
+      ]
+    },
+    "贾女士爱谱华顿HRBP": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 3,
+      "friend_msgs": 10,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 10
+        },
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 10
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 10
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "您这个岗位主要是统筹"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "沪南公路4888号(上海沪南公路4888号办公楼2楼)"
+        },
+        {
+          "mine": false,
+          "text": "此岗位做六休一固定休息周日，法定节假日正常"
+        },
+        {
+          "mine": false,
+          "text": "您看下距离怎么样"
+        },
+        {
+          "mine": true,
+          "text": "已读 单休我还要考虑一下 谢谢你"
+        },
+        {
+          "mine": true,
+          "text": "已读 通勤时间也比较久"
+        },
+        {
+          "mine": false,
+          "text": ""
+        }
+      ]
+    },
+    "吴女士四川艾红象健康科技人事主管": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-08-03",
+      "latest_state": "interview_invite",
+      "my_msgs": 3,
+      "friend_msgs": 7,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "interview_invite",
+          "my_msgs": 1,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-07-31",
+          "state": "interview_invite",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-03",
+          "state": "interview_invite",
+          "my_msgs": 3,
+          "friend_msgs": 7
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 这是我的简历，您看看"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-总助（行政人事运营方向)-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        },
+        {
+          "mine": false,
+          "text": "这边方便线上聊聊吗？"
+        },
+        {
+          "mine": true,
+          "text": "已读 稍等 我确定一下明天的日程安排"
+        },
+        {
+          "mine": true,
+          "text": "已读 明天下午你看大概几点方便，我下午ok"
+        }
+      ]
+    },
+    "殷传钦新仕佳猎头顾问": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-08-03",
+      "latest_state": "conversation_ended",
+      "my_msgs": 4,
+      "friend_msgs": 3,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 4,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 4,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 4,
+          "friend_msgs": 3
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 8年全盘HR，在前司管过300人团队的人力全模块。制度体系搭建我有直接经验——自研HR系统5个模块从0到1，12个SOP流程全公司落地。零售行业的节奏我挺想试试的～"
+        },
+        {
+          "mine": false,
+          "text": "这个岗位需要服装行业的哈"
+        },
+        {
+          "mine": true,
+          "text": "已读 好的"
+        },
+        {
+          "mine": false,
+          "text": "嗯嗯，有机会再合作"
+        },
+        {
+          "mine": true,
+          "text": "已读 嗯嗯"
+        }
+      ]
+    },
+    "黄女士MINISO招聘者": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-08-03",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "MINISO",
+        "title": "HRBP",
+        "send_time": "10:48:21",
+        "match_score": 60,
+        "log_file": "apply-log-0730-1048.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 前司8年，从0到1搭建过300人团队的HR全盘体系。招聘+绩效+员工关系全覆盖，制度SOP和HR系统都实际交付过。潮玩IP赛道挺有意思的，MINISO的线下零售场景HR应该很有挑战～"
+        }
+      ]
+    },
+    "张焱南罗莱智家生态招聘者": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-08-03",
+      "latest_state": "only_me",
+      "my_msgs": 2,
+      "friend_msgs": 0,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        },
+        {
+          "date": "2026-07-31",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        },
+        {
+          "date": "2026-08-03",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "罗莱智家生态",
+        "title": "薪酬绩效经理",
+        "send_time": "10:47:53",
+        "match_score": 60,
+        "log_file": "apply-log-0730-1048.json"
+      },
+      "is_manual": false,
+      "followup_count": 1,
+      "last_followup_date": "2026-08-06",
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": true,
+          "text": "送达 薪酬绩效体系设计我做过完整的——前司两条产品线差异化提成方案，软硬件分开考核，从测算到落地全程主导。HR系统5个模块上线后人均服务比从1:80提到1:150，共享服务的思路实际跑通过～"
+        }
+      ]
+    },
+    "陈女士海牙湾国际有限公司HRBP": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-08-03",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "海牙湾国际有限公司",
+        "title": "总裁助理（商务）",
+        "send_time": "10:47:24",
+        "match_score": 55,
+        "log_file": "apply-log-0730-1048.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 前司做了3年总裁办主任，日常就是陪同总裁参与商务洽谈+跨部门协调。你们要的数据分析和复盘报告我也有积累——供应商集中谈判年均节余20%，6场500+人次论坛从筹备到执行全流程。住杨浦，过去10分钟～"
+        }
+      ]
+    },
+    "冯女士君江材料科技HR": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-31",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "君江材料科技",
+        "title": "人事经理主管",
+        "send_time": "10:46:55",
+        "match_score": 70,
+        "log_file": "apply-log-0730-1048.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 前司8年全盘HR，从管培生做到总裁办主任。绩效体系从设计到落地是我主线——两条产品线差异化提成方案，测算到推行全程主导。劳资纠纷有硬仗经验：100+人协商安置，零仲裁零舆情，制度体系经得起检验。通勤半小时以内～"
+        }
+      ]
+    },
+    "吴瑾麦当劳中国招聘者": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-31",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "麦当劳中国",
+        "title": "HRBP (MJ115480)",
+        "send_time": "10:46:26",
+        "match_score": 78,
+        "log_file": "apply-log-0730-1048.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 你们JD提到的组织诊断和人才盘点，我在前司实际主导过——300人团队九宫格盘点、高潜IDP、架构调整（部门拆分合并+汇报线重设）都是交付过的。绩效管理全流程从目标设定到校准也完整跑过。5年兼任业务秘书，跟业务老大沟通没有隔阂。麦当劳这个体量的HRBP正是我想做的～"
+        }
+      ]
+    },
+    "凌女士美年大健康招聘经理": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-30",
+      "latest_state": "only_me",
+      "my_msgs": 2,
+      "friend_msgs": 0,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "only_me",
+          "my_msgs": 2,
+          "friend_msgs": 0
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "美年大健康",
+        "title": "薪酬绩效经理",
+        "send_time": "10:45:57",
+        "match_score": 75,
+        "log_file": "apply-log-0730-1048.json"
+      },
+      "is_manual": false,
+      "followup_count": 1,
+      "last_followup_date": "2026-08-06",
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": true,
+          "text": "已读 你们JD里提到的激励体系搭建和绩效指标库，我正好有直接成果——前司设计过两条产品线差异化提成方案，软硬件分开设点位+阶梯考核。薪酬数据交叉核验做了3年零差错，绩效指标从提取到测算全流程跑通。大健康赛道我一直关注～"
+        }
+      ]
+    },
+    "杨昕怡格林豪泰招聘者": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "格林豪泰",
+        "title": "人事经理",
+        "send_time": "10:45:28",
+        "match_score": 80,
+        "log_file": "apply-log-0730-1048.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 你们要的人力体系搭建，前司我实际交付过——HR系统5个模块从0到1，12个SOP全公司推广。组织架构调整也主导过，部门拆分合并+汇报线重设全程参与。8年里从管培生一路做到总裁办主任，战略落地和团队管理都是日常。住杨浦，过去半小时～"
+        }
+      ]
+    },
+    "王女士沃响企业管理猎头顾问": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 4,
+      "friend_msgs": 6,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 4,
+          "friend_msgs": 6
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 8年全盘HR，从管培生做到总裁办主任，300人团队。你们JD提的招聘全流程、绩效体系落地、劳动纠纷处理我都实际做过——之前独立处理过100+人优化安置，零仲裁。制度编制也是强项，输出过12个标准操作模块～"
+        },
+        {
+          "mine": false,
+          "text": "方便发一份简历过来吗？"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": true,
+          "text": "已读 岗位起薪能做到15k吗"
+        },
+        {
+          "mine": false,
+          "text": "这是个主管岗，做不到"
+        },
+        {
+          "mine": true,
+          "text": "已读 好的 那不浪费时间了"
+        },
+        {
+          "mine": false,
+          "text": "您已拒绝向对方发送简历"
+        },
+        {
+          "mine": false,
+          "text": "好的"
+        }
+      ]
+    },
+    "刘清河西安添才翰格人力资源猎头顾问": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 3,
+      "friend_msgs": 3,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 3
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "请问目前是在职离职？"
+        },
+        {
+          "mine": true,
+          "text": "已读 3年总裁办主任经验，统筹过6场500+人次行业论坛，供应商集中谈判年均节余20%。日常文件处理、跨部门协调、业务报告这些在总裁办期间就是日常。咨询行业的节奏我应该很快能上手～"
+        },
+        {
+          "mine": false,
+          "text": "请问在上海工作几年了？"
+        },
+        {
+          "mine": true,
+          "text": "已读 目前l离职，之前base在嘉兴，没在上海"
+        }
+      ]
+    },
+    "刘美琪青岛睿资达猎头顾问": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-30",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 3年总裁办主任经验，统筹过6场500+人次论坛，供应商集中谈判年均节余20%。行政流程优化和SOP搭建有直接成果——12个标准模块全公司落地。金融投资行业的环境我应该很快能上手～"
+        }
+      ]
+    },
+    "巢子薇亚朵集团资深招聘专家": {
+      "first_seen": "2026-07-30",
+      "last_scanned": "2026-07-30",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-30",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "王萌堃北京外企德科人力...招聘专家": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 7,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 7
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "Hello，贾玉婷，看了你的简历，我很欣赏，想和你进一步沟通"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 您好，可以看看我的简历"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-HRM+C&B+ER+HRBP+HRIS-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "好的，我这边先看下你的简历，后续有进展会通知您~"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    },
+    "张先生贸联国际货运HR": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 3,
+      "friend_msgs": 4,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 4
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "贸联国际货运",
+        "title": "人事经理/总监",
+        "send_time": "14:37:55",
+        "match_score": 80,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 张先生，前司8年从管培生做到人力总监，HR全模块都亲手建过。你们JD要求的战略规划+组织效能提升方向，我实际做过两次架构调整，从部门拆分、汇报线重设到岗位梳理全程跟。全球扩张的异地招聘场景也能理解——之前协调过全国近300人团队的跨区域管理。虹口离我很近，骑行半小时～"
+        },
+        {
+          "mine": false,
+          "text": "您好，请问是哪里人呀？目前居住哪个区？未来三年个人发展计划有吗？英语水平如何？个人能力优势是什么呢？是否了解过国际货运代理行业？谢谢"
+        },
+        {
+          "mine": true,
+          "text": "已读 目前在杨浦，老家江西，未来稳定在上海这边，英语读写没问题，个人优势刚刚已经发给你了，行业了解较少，但有好奇心和热情，学习能力也很强"
+        },
+        {
+          "mine": false,
+          "text": "请问薪资要求多少？离职多久了呀？离职原因是什么呢？"
+        },
+        {
+          "mine": false,
+          "text": "请问怎么看待出差和加班呢？"
+        }
+      ]
+    },
+    "赵灿虹弧科技招聘经理": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "虹弧科技",
+        "title": "（外企双休）事业部 综合管理",
+        "send_time": "14:44:32",
+        "match_score": 60,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 赵经理，前司做了5年总裁办主任，部门协调、绩效监督、团队管理、制度搭建就是我的日常。跨部门资源调配+业绩考核跟进+制度流程优化全程做过，制度文件30+份全公司推广。外企双休+9-5+虹口江湾，通勤骑行24分钟，各方面都很合适～"
+        },
+        {
+          "mine": false,
+          "text": "请问在上海工作多久了呢"
+        }
+      ]
+    },
+    "戴女士拼多多集团-PDD招聘经理": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "拼多多集团-PDD",
+        "title": "hris专家",
+        "send_time": "14:38:54",
+        "match_score": 72,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 戴小姐，前司自研HR系统我是核心需求方和主管理员，从需求承接、方案设计、协调技术团队开发测试到上线推广全程主导。5个模块上线后人均服务比从1:30提到1:80，数据零差错。你们JD描述的HR数字化产品解决方案方向，跟我的实战经历直接对标。五角场过去半小时～"
+        },
+        {
+          "mine": false,
+          "text": "不好意思，不太合适哦"
+        }
+      ]
+    },
+    "叶女士墨虹电商人事经理": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "墨虹电商",
+        "title": "人事行政总监",
+        "send_time": "14:43:28",
+        "match_score": 65,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 叶小姐，8年全盘HR+行政统筹正好跟你们JD对得上。前司人事和行政两条线我都管过——人事从招聘到绩效到员工关系全流程，行政从供应商谈判到SOP体系搭建到大型活动统筹，供应商集中谈判年省预算约20%。电商快节奏我适应得来～"
+        }
+      ]
+    },
+    "邱女士云骥教育招聘经理": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "云骥教育",
+        "title": "集团人力总监",
+        "send_time": "14:42:58",
+        "match_score": 65,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 邱小姐，教育行业的集团人力总监我很有兴趣。前司经历了从100到1000人的完整扩张周期，组织架构、人才梯队、绩效薪酬、SOP体系每个模块都是我亲手从零建的。教师岗位的差异化薪酬激励我之前给销售团队做过——底层逻辑相通，不同岗位设不同考核维度和激励结构。骑行8分钟就到～"
+        }
+      ]
+    },
+    "向女士润欣科技股份HR": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied_no_reply",
+      "my_msgs": 0,
+      "friend_msgs": 3,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 3
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "润欣科技股份",
+        "title": "总经理特别助理/总助",
+        "send_time": "14:41:55",
+        "match_score": 68,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你撤回了一条消息"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "你撤回了一条消息"
+        }
+      ]
+    },
+    "顾先生上海避风塘美食人力资源招聘经理": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海避风塘美食",
+        "title": "人事总监",
+        "send_time": "14:41:25",
+        "match_score": 68,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 顾先生，你们JD写得很专业，尤其是老团队进化和AI+HR系统建设两个方向。我在前司经历过公司从扩张到收缩的完整周期——扩张期建体系、收缩期做优化，老员工和新标准的磨合我全程经历了。AI在HR场景的落地我也在推，简历筛选和薪酬核验都跑通过。港式文化+连锁模式我挺想尝试的～"
+        }
+      ]
+    },
+    "李女士腾讯HR": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "腾讯",
+        "title": "腾讯营销HRBP-客户方向(上海)",
+        "send_time": "14:40:24",
+        "match_score": 68,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 李小姐，前司8年HR从管培生做到总裁办主任，业务敏感度是日常——5年兼任总裁市场秘书，参与战略讨论、绩效反馈和团队改革。你们JD强调的组织与人才发展，我实际做过两次架构调整和九宫格人才盘点。腾讯的HR体系我很想学习，能从业务HR的角度切入～"
+        },
+        {
+          "mine": false,
+          "text": "很抱歉，您和目前在招的职位不太匹配，有更合适的机会再合作～"
+        }
+      ]
+    },
+    "高女士上海中国电信股份...招聘专员": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied_no_reply",
+      "my_msgs": 0,
+      "friend_msgs": 3,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 3
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海中国电信股份...",
+        "title": "薪酬绩效专员/经理",
+        "send_time": "14:39:24",
+        "match_score": 72,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你撤回了一条消息"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "你撤回了一条消息"
+        }
+      ]
+    },
+    "闫女士药明康德招聘者": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "药明康德",
+        "title": "HRIS高级经理",
+        "send_time": "14:38:24",
+        "match_score": 75,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 陆小姐，我在前司主导过自研HR系统从0到1上线——5大模块覆盖考勤、薪酬、绩效、档案、合同，从需求分析、技术对接、测试到上线推广全流程都是我推的。你们JD提的SAP SuccessFactors全球化落地我很想学，但我的底层能力——需求治理、流程梳理、跨部门协调——完全对口。驾车24分钟～"
+        }
+      ]
+    },
+    "周女士光正新视界人事": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "光正新视界",
+        "title": "人事行政部门经理",
+        "send_time": "14:37:25",
+        "match_score": 85,
+        "log_file": "apply-log-0731-1444.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 周小姐，你们JD里提的AI+人事方向我正好在实践——推过AI筛选简历、薪酬核验，自研HR系统5个模块从0到1上线后人均服务比从1:30提到1:80。集团化管理我也做过，300人全盘HR+12个SOP全公司落地。眼科医疗的连锁逻辑跟前司多区域管理相通。我住杨浦，过去很方便～"
+        }
+      ]
+    },
+    "徐先生愉游资深招聘": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "愉游",
+        "title": "高级HRBP",
+        "send_time": "13:55:04",
+        "match_score": 65,
+        "log_file": "apply-log-0731-1356.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 徐先生，游戏研发团队的HRBP我挺想尝试。你们JD提的薪酬福利优化+人才盘点+绩效改进，我都有直接经验——前司做过薪酬结构调整、九宫格人才盘点、绩效改进计划全流程。虽没做过游戏行业，但我之前在科技公司对接过研发团队，策划和程序岗位的考核逻辑我大概能理解～"
+        }
+      ]
+    },
+    "叶女士海能投顾HR经理": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "海能投顾",
+        "title": "HRBP",
+        "send_time": "13:50:56",
+        "match_score": 72,
+        "log_file": "apply-log-0731-1356.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 叶小姐，5年HRBP经验我有——前司兼任总裁业务秘书5年，直接对接业务老大做人力盘点、绩效反馈和人才梯队。你们JD要的流程梳理和考核指标拆解正好是我的强项，之前给两条产品线分别设过差异化考核方案。杨浦东外滩离我很近～"
+        }
+      ]
+    },
+    "张先生宇纤动量招聘者": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "你撤回了一条消息"
+        }
+      ]
+    },
+    "杨思津中广资本招聘专家": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "中广资本",
+        "title": "薪酬绩效总监",
+        "send_time": "18:21:31",
+        "match_score": 80,
+        "log_file": "apply-log-0728-1822.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "你好啊，可以聊一聊~"
+        },
+        {
+          "mine": true,
+          "text": "已读 要电话沟通一下吗？"
+        }
+      ]
+    },
+    "李女士七牛云HR": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "抱歉，尽管我们对您的背景印象深刻，但该职位需要一些其他的技能和经验。祝您在BOSS直聘找到满意的工作！"
+        }
+      ]
+    },
+    "刘女士景嘉微电子招聘者": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 4,
+      "friend_msgs": 10,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "interview_invite",
+          "my_msgs": 4,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-03",
+          "state": "interview_invite",
+          "my_msgs": 4,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 4,
+          "friend_msgs": 10
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 4,
+          "friend_msgs": 10
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "金创大厦-2号楼(上海浦东新区金创大厦-2号楼F7)"
+        },
+        {
+          "mine": false,
+          "text": "汇报对象是我们的人力部门经理，HC是新增"
+        },
+        {
+          "mine": true,
+          "text": "已读 工作地点我可以接受。"
+        },
+        {
+          "mine": false,
+          "text": "收到，如果合适的话我们会尽快联系您进行面试"
+        },
+        {
+          "mine": true,
+          "text": "已读 好的 谢谢"
+        },
+        {
+          "mine": false,
+          "text": "我想要和您交换微信，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "贾女士您好，您的简历通过初筛向您邀约一面的线上面试，您这边电话显示已关机我们微信联系可以吗"
+        },
+        {
+          "mine": false,
+          "text": "13568119097刘女士的微信号13568119097复制微信号"
+        }
+      ]
+    },
+    "金先生上海莎华贸易有限公司招聘者": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "你好 这个岗位要常驻瑞安"
+        },
+        {
+          "mine": true,
+          "text": "送达 好的，祝早日找到合适候选人"
+        }
+      ]
+    },
+    "江女士上海灵犀智涌科技行政助理": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "徐先生海阳集团招聘者": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "郭先生墨奇智能招聘者": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "于女士嬴彻科技HR": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "郭军和达科技董事长": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "杨彬上海枫麒人事HRBP": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "程女士上海小龙鱼教育招聘者": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 5,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 5
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 5
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "您好，感谢应聘，方便发一份简历。"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-HRM+C&B+ER+HRBP+HRIS-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    },
+    "朱逸辰上海淘科新能源招聘专员": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "龙女士嘉驰英才人力专员": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied_no_reply",
+      "my_msgs": 0,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你好，我们正在招聘内部沟通专员，请问方便聊聊吗？"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        }
+      ]
+    },
+    "季女士上海研鼎招聘经理": {
+      "first_seen": "2026-07-31",
+      "last_scanned": "2026-08-03",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 4,
+      "state_history": [
+        {
+          "date": "2026-07-31",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海研鼎",
+        "title": "人事经理 / HRBP Manager",
+        "send_time": "15:20:15",
+        "match_score": 85,
+        "log_file": "apply-log-0730-1520.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 你们JD写得很专业，每一条我都找到了对应经历——薪酬设计方面，前司做过两条产品线差异化提成方案，软硬件分开考核。绩效闭环从目标拆解到校准完整跑过。劳动法部分：100+人协商安置零仲裁，制度体系经仲裁验证合规。HR系统5个模块从0到1上线。住在杨浦，驾车半小时可到张江～"
+        },
+        {
+          "mine": false,
+          "text": "你好啊，可以聊一聊~"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-HR... 已发送给Boss点击查看附件"
+        }
+      ]
+    },
+    "鲍女士才多对猎头顾问": {
+      "first_seen": "2026-08-03",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 6,
+      "state_history": [
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 6
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你好，我们急招HR COE【明星企业/双休工作氛围好】，如有兴趣希望可以深聊"
+        },
+        {
+          "mine": true,
+          "text": "已读 您好，这是我的简历"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-HRM+C&B+ER+HRBP+HRIS-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "收到，简历合适的话稍后联系您~"
+        },
+        {
+          "mine": false,
+          "text": "1"
+        }
+      ]
+    },
+    "陈先生深至科技TA Manager": {
+      "first_seen": "2026-08-03",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 6,
+      "state_history": [
+        {
+          "date": "2026-08-03",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 6
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "此Boss正在急招该职位，系统自动向您匹配该职位，若感兴趣您可以直接投递"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷，可以就你的经历详细说说么？"
+        },
+        {
+          "mine": false,
+          "text": ""
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": true,
+          "text": "已读 您好，我已投递简历"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-HR... 已发送给Boss点击查看附件"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    },
+    "徐恒BOSS直聘猎头猎头顾问": {
+      "first_seen": "2026-08-03",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 5,
+      "state_history": [
+        {
+          "date": "2026-08-03",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 5
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 5
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 5
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "此人才经纪人正在急招该职位，系统自动向您匹配该职位，若感兴趣您可以直接投递"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷，可以就你的经历详细说说么？"
+        },
+        {
+          "mine": false,
+          "text": ""
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": true,
+          "text": "已读 您好，我已投递简历"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-HR... 已发送给Boss点击查看附件"
+        },
+        {
+          "mine": true,
+          "text": "已读 我近几年没有直接做人才寻访的工作诶"
+        }
+      ]
+    },
+    "高女士德邦快递招聘专员": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 10,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied_no_reply",
+          "my_msgs": 0,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 10
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-HRM+C&B+ER+HRBP+HRIS-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        },
+        {
+          "mine": false,
+          "text": "我想要和您交换微信，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "haoyuntuantuan66高女士的微信号haoyuntuantuan66复制微信号"
+        },
+        {
+          "mine": false,
+          "text": "加您微信啦"
+        },
+        {
+          "mine": true,
+          "text": "已读 好的"
+        }
+      ]
+    },
+    "袁女士迈富时HR": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 7,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 5
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 7
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你好，我认真看了你的简历，觉得非常适合我们这边的总裁办秘书（互联网港股上市公司）这个岗位，希望能和你进一步沟通一下，不知道你是否有兴趣"
+        },
+        {
+          "mine": false,
+          "text": "迈富时是中国领先的营销与销售SaaS服务提供商，致力于数字化与人工智能技术。1、行业地位： 中国收入规模最大、增速最快的营销及销售SaaS公司之一。2、技术驱动： 拥有自主研发的T-force营销领域大模型和AI-Agentforce智能体中台，构建了覆盖营销、销售、服务、分析等全链路的“六朵云”产品生态。3、客户与生态： 累计服务超过20万家企业，与腾讯、华为、京东等科技巨头达成战略合作，共同推动企业数智化转型。"
+        },
+        {
+          "mine": false,
+          "text": "方便发一份你的简历过来吗？"
+        },
+        {
+          "mine": true,
+          "text": "已读 您好，可以看看我的简历"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-总助（行政人事运营方向)-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    },
+    "刘女士潍坊易鸿猎头顾问": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 3,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 3
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 3
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "请问，有没有兴趣加入我们的团队呢？"
+        },
+        {
+          "mine": true,
+          "text": "已读 这个岗位招聘属性很强吗？"
+        },
+        {
+          "mine": false,
+          "text": "1.精通《劳动合同法》《社会保险法》《女职工保护条例》等劳动法规；2.熟悉上海社保、公积金、工伤、生育、失业、退休流程；3.能独立撰写人事制度，考勤，招聘 绩效 奖惩离职管理制度11-18万9:00-5:30，双休，五险一金（上海最低标准进行缴纳）上海徐汇区绿地中心A座,🌺以上内容合适吗？🌺"
+        },
+        {
+          "mine": true,
+          "text": "已读 11-18万是什么？"
+        },
+        {
+          "mine": false,
+          "text": "年"
+        }
+      ]
+    },
+    "孙悦吉林海纳川人力资源猎头顾问": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 你好，我8年全盘HR，从组织架构调整到制度体系建设都实际做过。前司我主导过部门拆分合并、汇报线重设、岗位体系梳理——跟你JD描述的组织发展方向对路。绩效薪酬体系设计也是我一直在做的核心线。大型企业平台的人力副经理角色正是我下一步想走的方向～"
+        },
+        {
+          "mine": false,
+          "text": "不好意思，不太合适哦"
+        }
+      ]
+    },
+    "童先生三问家居招聘主管": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "三问家居",
+        "title": "薪酬绩效主管/经理",
+        "send_time": "16:05:47",
+        "match_score": 72,
+        "log_file": "apply-log-0803-1605.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 童先生，前司我设计过两条产品线的差异化薪酬绩效方案，软硬件分开提成+阶梯考核，从测算到落地全流程。薪酬核算我连续做了多年，数据交叉核验零差错。薪酬绩效优化和制度建设的经验跟你JD要的方向一致～"
+        }
+      ]
+    },
+    "刘女士添才翰格猎头顾问": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 2,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 2
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 2
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": false,
+          "text": "不好意思，不太合适哦"
+        }
+      ]
+    },
+    "孙先生恒成智远招聘官": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "恒成智远",
+        "title": "人才发展咨询顾问",
+        "send_time": "16:04:50",
+        "match_score": 60,
+        "log_file": "apply-log-0803-1605.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 孙先生，前司8年全盘HR里人才盘点、岗位体系设计、培训搭建是核心线。12个SOP模块从0到1输出，组织架构调整前的岗位梳理和人才评估也实际做过。从甲方HR转到咨询输出方法论，是我一直想尝试的路径～"
+        }
+      ]
+    },
+    "刘静六个六猎头顾问": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 你好，我做过总裁办主任兼HR负责人，刚好是你JD要的人事+行政双线。薪酬绩效体系是我从0搭的，SOP 12个模块全公司推广。行政这边——论坛统筹6场500+人、供应商谈判年均节余20%、预算管控都实际做过。人事行政融合管理的方向跟我之前对路～"
+        }
+      ]
+    },
+    "张女士上海奕乐澄人事经理": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海奕乐澄",
+        "title": "人力总监",
+        "send_time": "16:03:23",
+        "match_score": 65,
+        "log_file": "apply-log-0803-1605.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 张女士，我过去8年从管培生做到总裁办主任，300人团队从0到1搭过完整的人力体系。你JD里绩效激励、培训赋能、组织发展这几条线，我在前司都实际推过。虽然没做过连锁零售，但快速扩张期的人力体系搭建是我的舒适区。茶饮赛道倒是一直挺想试试的～"
+        }
+      ]
+    },
+    "杨先生珍岛集团高级产品经理": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "珍岛集团",
+        "title": "EHR产品经理",
+        "send_time": "16:02:54",
+        "match_score": 75,
+        "log_file": "apply-log-0803-1605.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 杨先生，我比较特殊——我是HR出身但完整做过一套HR系统。前司我主导自研HR系统从0到1上线，梳理考勤、薪酬、绩效、档案、合同5大模块需求，跟技术团队对接开发到落地。你JD要的HR业务理解+系统落地经验，我两边都实际干过。这个交叉方向挺有意思的～"
+        }
+      ]
+    },
+    "姚先生上海商汤信息科技运营经理": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海商汤信息科技",
+        "title": "hr经理",
+        "send_time": "16:02:25",
+        "match_score": 88,
+        "log_file": "apply-log-0803-1605.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 姚先生，你JD的要求跟我过去8年做的事基本都对得上——从0搭建人力体系、薪酬绩效管控、员工关系合规。前司我管300人全盘HR，制度流程、SOP、考核方案都是我独立推的。也是科技公司出身，这个模式我熟。我住江湾，骑车过去10分钟～"
+        }
+      ]
+    },
+    "何承翰鼎捷数智招聘专家": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "鼎捷数智",
+        "title": "人才发展专家",
+        "send_time": "16:01:56",
+        "match_score": 68,
+        "log_file": "apply-log-0803-1605.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 你好，我过去8年做HR全盘，人才盘点和培训体系搭建是我主要抓的两条线。前司我输出过12个SOP模块、做过组织架构调整中的岗位体系梳理和人才盘点。你说的胜任力模型和继任计划，在制度搭建中实际涉及过。鼎捷的TD方向我一直在看～"
+        }
+      ]
+    },
+    "陈天乐济南阿尔伯特人才服务猎头顾问": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 你好，前司我设计过两条产品线的差异化薪酬绩效方案，从指标拆解到系统落地全流程。绩效体系搭建和迭代是我8年里一直在做的核心线。国资委体系下的薪酬管理规范性强，跟我之前的合规经验也对得上～"
+        }
+      ]
+    },
+    "杜女士宇易生物招聘者": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "宇易生物",
+        "title": "人事主管HRBP",
+        "send_time": "16:00:09",
+        "match_score": 85,
+        "log_file": "apply-log-0803-1605.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 杜女士，我做了8年全盘HR，从管培生做到总裁办主任，300人团队。你说的组织盘点和六大模块推进，前司我一直在做——12个SOP模块从0到1落地，薪酬绩效制度也是我搭的。我住杨浦，去互联宝地很方便～"
+        }
+      ]
+    },
+    "张女士上海沃锐猎头机构猎头顾问": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 7,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 7
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 7
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 这是我的简历，您看看"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-HRM+C&B+ER+HRBP+HRIS-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        },
+        {
+          "mine": false,
+          "text": "您最近在上海还是在浙江呀"
+        },
+        {
+          "mine": true,
+          "text": "已读 在上海"
+        }
+      ]
+    },
+    "王女士彭世集团彭世养生板块招聘经理": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 3,
+      "friend_msgs": 11,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 11
+        },
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 3,
+          "friend_msgs": 11
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "贾玉婷-HRM+C&B+ER+HRBP+HRIS-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        },
+        {
+          "mine": false,
+          "text": "贾老师你好"
+        },
+        {
+          "mine": false,
+          "text": "我想要和您交换微信，您是否同意"
+        },
+        {
+          "mine": true,
+          "text": "已读 不好意思 强招聘我不考虑 实际早日找到其他合适候选人"
+        },
+        {
+          "mine": false,
+          "text": "好的，祝咱也找到理想的工作"
+        },
+        {
+          "mine": true,
+          "text": "已读 嗯嗯 谢谢～"
+        }
+      ]
+    },
+    "施女士鱼酷招聘主管": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 2,
+      "friend_msgs": 4,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 2,
+          "friend_msgs": 4
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "鱼酷",
+        "title": "薪酬绩效经理",
+        "send_time": "15:45:47",
+        "match_score": 78,
+        "log_file": "apply-log-0728-1547.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 9年从管培生做到人力总监，薪酬绩效是我的主线方向。独立设计过两条产品线差异化销售薪酬方案——软硬件分开设提成点位、阶梯考核、超额分红，新人留存率从40%提到75%，差旅招待费降26%。还建了一套数据交叉核验机制，连续多年薪酬核算零差错。连锁门店的多层级绩效体系，和我的经验结构直接匹配。"
+        },
+        {
+          "mine": false,
+          "text": "你好，麻烦发一份最新简历过来，谢谢。"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-HR... 已发送给Boss点击查看附件"
+        }
+      ]
+    },
+    "宋莉BOSS直聘猎头猎头顾问": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 6,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 6
+        },
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 6
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你好，我们急招HRBP，求贤若渴，期待你的回复"
+        },
+        {
+          "mine": false,
+          "text": "Boss对您非常感兴趣；3日内回复可获得1个竞争力分析器(价值3直豆）"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": true,
+          "text": "已读 您好，我已投递简历"
+        },
+        {
+          "mine": false,
+          "text": "您的附件简历 贾玉婷-HR... 已发送给Boss点击查看附件"
+        },
+        {
+          "mine": false,
+          "text": "感谢您积极回复Boss，获得1个竞争力分析器 查看详情"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    },
+    "叶先生卓浔人力资源人才经纪人": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 3,
+      "friend_msgs": 6,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 3,
+          "friend_msgs": 6
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "泛海国际中心-A座(杭州上城区泛海国际中心-A座3楼)"
+        },
+        {
+          "mine": false,
+          "text": "工作地点可以接受吗"
+        },
+        {
+          "mine": false,
+          "text": "我想要一份您的附件简历，您是否同意"
+        },
+        {
+          "mine": true,
+          "text": "已读 不好意思 没注意到地址"
+        },
+        {
+          "mine": false,
+          "text": "您的期望地址是上海吗"
+        },
+        {
+          "mine": false,
+          "text": "我们上海也有分公司的"
+        },
+        {
+          "mine": true,
+          "text": "已读 对的，该不会是保险公司吧"
+        },
+        {
+          "mine": false,
+          "text": "您更换了与该Boss沟通的职位"
+        }
+      ]
+    },
+    "曲先生京德筱网络科技招聘者": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "京德筱网络科技",
+        "title": "hrbp主管(双休）",
+        "send_time": "16:04:15",
+        "match_score": 65,
+        "log_file": "apply-log-0804-1604.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 曲先生，你JD要的HRBP对接业务团队+人才盘点+组织诊断，我在前司8年里从管培生做到总裁办主任，业务配合和人才发展都有直接交付。人才盘点我做过全公司300人的，绩效体系主导迭代过3轮。"
+        }
+      ]
+    },
+    "钱睿上海瞬沃信息科技招聘主管": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "上海瞬沃信息科技",
+        "title": "人力外包项目招聘经理",
+        "send_time": "16:03:45",
+        "match_score": 68,
+        "log_file": "apply-log-0804-1604.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 钱经理，你JD要的批量招聘团队管理和数据复盘能力，我在前司带过12人团队，搭建过招聘数据看板和标准化流程。华东地区从0到1建体系的经历也有。我住曲阳，过去骑行11分钟。"
+        }
+      ]
+    },
+    "林女士兮美社人事专员": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "兮美社",
+        "title": "人事经理管理岗",
+        "send_time": "16:03:15",
+        "match_score": 68,
+        "log_file": "apply-log-0804-1604.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 林女士，我8年全盘HR经验，从招聘到员工关系到制度优化都做过。你JD要的人事流程管理和企业文化建设，在前司我负责300人团队的全流程人事管理，做过12个SOP模块和20+份制度文件。静安过去也方便。"
+        }
+      ]
+    },
+    "任女士BOSS直聘猎头猎头顾问": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 任女士，你JD要的HRBP推动业务部门绩效管理和人才发展，我8年里一直在做——设计过两条产品线的差异化绩效方案，做过多次组织架构调整，推动过12个模块的SOP落地。互联网产研团队我也有对接经验。"
+        }
+      ]
+    },
+    "李秋红千岛五象招聘专家": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "千岛五象",
+        "title": "跨境电商 HRBP",
+        "send_time": "16:01:26",
+        "match_score": 75,
+        "log_file": "apply-log-0804-1604.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "送达 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 李经理，你JD要的组织诊断+绩效体系+人才梯队建设，我过去几年一直在做。前司300人团队的绩效管理、人才盘点、架构调整都是我主导的。跨境电商快节奏的业务场景，跟我之前配合销售团队做BP的模式很像。"
+        }
+      ]
+    },
+    "田先生桂满陇招聘负责人": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "conversation_ended",
+      "my_msgs": 2,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "conversation_ended",
+          "my_msgs": 2,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": true,
+        "company": "桂满陇",
+        "title": "人力资源副总监（薪酬绩效、员工关系）",
+        "send_time": "16:00:56",
+        "match_score": 85,
+        "log_file": "apply-log-0804-1604.json"
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": true,
+          "text": "已读 您好，我非常希望能够得到这个岗位的面试机会，如果岗位还有空缺，希望能得到机会，感谢。"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 田先生，你JD写的薪酬绩效+员工关系+HRIS这三条线，我刚好都做过。前司两条产品线的差异化提成方案是我设计的，100+人劳资协商我带队完成的，HR系统从0到1上线也是我主导的。餐饮连锁的多门店薪酬模式跟前司销售团队按区域考核的逻辑很类似。"
+        }
+      ]
+    },
+    "李女士爱谱华顿人力总监": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "interview_invite",
+      "my_msgs": 0,
+      "friend_msgs": 1,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "interview_invite",
+          "my_msgs": 0,
+          "friend_msgs": 1
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "您好！爱谱华顿有岗位急招，方便发份简历聊聊吗"
+        }
+      ]
+    },
+    "马龙上海旭之益生物医药人事HRBP": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 4,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 4
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "嗨~我们公司弹性上下班、不强制加班，福利完善保障到位，很适合长期发展，在看新的工作机会也可以发一份简历了解呀"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "送达 这是我的简历，您看看"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-HRM+C&B+ER+HRBP+HRIS-18702508467.pdf"
+        }
+      ]
+    },
+    "李先生上海能良招聘专家": {
+      "first_seen": "2026-08-04",
+      "last_scanned": "2026-08-04",
+      "latest_state": "boss_replied",
+      "my_msgs": 1,
+      "friend_msgs": 6,
+      "state_history": [
+        {
+          "date": "2026-08-04",
+          "state": "boss_replied",
+          "my_msgs": 1,
+          "friend_msgs": 6
+        }
+      ],
+      "matched_send": {
+        "matched": false
+      },
+      "is_manual": false,
+      "followup_count": 0,
+      "last_followup_date": null,
+      "archived": false,
+      "archive_reason": null,
+      "last_messages": [
+        {
+          "mine": false,
+          "text": "你好，我们公司正在招聘产品经理（招聘系统/HR方向），请问考虑吗"
+        },
+        {
+          "mine": false,
+          "text": "你与该职位竞争者PK情况共人投递，你超过竞争者优秀竞争者会，建议你查看详细分析"
+        },
+        {
+          "mine": true,
+          "text": "已读 您好，这是我的简历"
+        },
+        {
+          "mine": false,
+          "text": "附件简历请求已发送"
+        },
+        {
+          "mine": false,
+          "text": "贾玉婷-HRM+C&B+ER+HRBP+HRIS-18702508467.pdf"
+        },
+        {
+          "mine": false,
+          "text": "对方已同意，您的附件简历已发送给对方"
+        },
+        {
+          "mine": false,
+          "text": "对方已查看了您的附件简历"
+        }
+      ]
+    }
+  },
+  "scan_log": [
+    {
+      "date": "2026-07-29",
+      "new": 43,
+      "updated": 0,
+      "total_convs": 43
+    },
+    {
+      "date": "2026-07-30",
+      "new": 1,
+      "updated": 1,
+      "total_convs": 44
+    },
+    {
+      "date": "2026-07-30",
+      "new": 16,
+      "updated": 6,
+      "total_convs": 60
+    },
+    {
+      "date": "2026-07-31",
+      "new": 29,
+      "updated": 3,
+      "total_convs": 89
+    },
+    {
+      "date": "2026-08-03",
+      "new": 3,
+      "updated": 2,
+      "total_convs": 92
+    },
+    {
+      "date": "2026-08-04",
+      "new": 18,
+      "updated": 3,
+      "total_convs": 110
+    },
+    {
+      "date": "2026-08-04",
+      "new": 10,
+      "updated": 3,
+      "total_convs": 120
+    }
+  ],
+  "last_scan": {
+    "date": "2026-08-04",
+    "total_found": 44,
+    "new": 10,
+    "updated": 3
+  }
+}

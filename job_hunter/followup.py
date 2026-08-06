@@ -55,63 +55,68 @@ def find_candidates(index, interval_days=2, max_per_day=10):
 
 
 def send_followup(page, company_name):
+    """用搜索框定位对话→点击→发送跟进消息。
+
+    BOSS聊天列表使用虚拟滚动，旧方法通过遍历 .title-box 无法触达
+    历史对话。改为利用聊天页搜索框（.boss-search-input）定位目标。
+    """
     page.get("https://www.zhipin.com/web/geek/chat")
     time.sleep(3)
 
-    for i in range(60):
-        js = (
-            "return (function() {"
-            "var target = " + str(i) + ";"
-            "var titles = document.querySelectorAll('.title-box');"
-            "var idx = 0;"
-            "for (var j = 0; j < titles.length; j++) {"
-            "if (!titles[j].offsetParent) continue;"
-            "var t = titles[j].textContent.trim();"
-            "if (t.length < 2) continue;"
-            "if (idx === target) {"
-            "var p = titles[j].closest('[class*=user-item]') || titles[j].parentElement.parentElement;"
-            "if (p) { p.click(); return JSON.stringify({ok: true, name: t.substring(0, 60)}); }"
-            "}"
-            "idx++;"
-            "}"
-            "return JSON.stringify({ok: false});"
-            "})();"
+    # Step 1: 搜索目标公司
+    search = page.ele(".boss-search-input", timeout=5)
+    if not search:
+        return False
+    search.click()
+    time.sleep(0.2)
+    page.run_js('document.querySelector(".boss-search-input").select()')
+    time.sleep(0.1)
+    search.input(company_name)
+    time.sleep(2)
+
+    # Step 2: 检查搜索下拉结果
+    has_result = page.run_js(
+        "return JSON.stringify({"
+        "found: !!(document.querySelector('.boss-search-result')"
+        " && document.querySelector('.boss-search-result').offsetParent)"
+        "})"
+    )
+    if not json.loads(has_result).get("found"):
+        return False
+
+    # Step 3: 点击结果打开对话
+    page.run_js('document.querySelector(".boss-search-result").click()')
+    time.sleep(2)
+
+    # Step 4: 等待聊天区域就绪
+    for _ in range(15):
+        ready = page.run_js(
+            "return JSON.stringify({ok: !!(document.querySelector('[contenteditable=true]')"
+            " && document.querySelector('[contenteditable=true]').offsetParent"
+            " && document.querySelector('.btn-send')"
+            " && document.querySelector('.btn-send').offsetParent)})"
         )
-        r = json.loads(page.run_js(js))
-        if not r.get("ok"):
+        if json.loads(ready).get("ok"):
             break
-        found_name = r.get("name", "")
-        time.sleep(0.8)
+        time.sleep(1)
+    else:
+        return False
 
-        if company_name.lower() in found_name.lower() or found_name.lower() in company_name.lower():
-            for _ in range(10):
-                ready = page.run_js(
-                    "return JSON.stringify({ok: !!(document.querySelector('[contenteditable=true]')"
-                    " && document.querySelector('[contenteditable=true]').offsetParent"
-                    " && document.querySelector('.btn-send')"
-                    " && document.querySelector('.btn-send').offsetParent)})"
-                )
-                if json.loads(ready).get("ok"):
-                    break
-                time.sleep(1)
-            else:
-                return False
-
-            greeting = _build_greeting(company_name)
-            page.run_js(
-                "var t=arguments[0]; var d=document.querySelector('[contenteditable=true]');"
-                "if(d){d.focus(); d.textContent=t;"
-                "d.dispatchEvent(new InputEvent('input',{bubbles:true}));}",
-                greeting,
-            )
-            time.sleep(1.5)
-            sent = page.run_js(
-                "return (function(){var btn=document.querySelector('.btn-send');"
-                "if(!btn) return 'no_btn'; btn.click(); return 'sent';})();"
-            )
-            time.sleep(2)
-            return sent == "sent"
-    return False
+    # Step 5: 输入并发送
+    greeting = _build_greeting(company_name)
+    page.run_js(
+        "var t=arguments[0]; var d=document.querySelector('[contenteditable=true]');"
+        "if(d){d.focus(); d.textContent=t;"
+        "d.dispatchEvent(new InputEvent('input',{bubbles:true}));}",
+        greeting,
+    )
+    time.sleep(1)
+    sent = page.run_js(
+        "return (function(){var btn=document.querySelector('.btn-send');"
+        "if(!btn) return 'no_btn'; btn.click(); return 'sent';})();"
+    )
+    time.sleep(1.5)
+    return sent == "sent"
 
 
 def _build_greeting(company_name):
